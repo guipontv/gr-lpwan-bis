@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mac__field__frame__ctrl_8h" kind="file" language="C++">
+    <compoundname>mac_field_frame_ctrl.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes refid="mac__field_8h" local="yes">mac_field.h</includes>
+    <includedby refid="mac__field__frag__header_8h" local="yes">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_header.h</includedby>
+    <includedby refid="mac__field__frame_8h" local="yes">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h</includedby>
+    <incdepgraph>
+      <node id="216">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="214">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="222">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_header.h</label>
+        <link refid="mac__field__frag__header_8h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frak.h</label>
+        <link refid="mac__field__frak_8h"/>
+      </node>
+      <node id="220">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_fragment.h</label>
+        <link refid="mac__field__fragment_8h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" prot="public">gr::lpwan::mac_field_frame_ctrl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a3c6f38eadcd47c5b63aa3c725262404b" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_BEACON</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="31" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a06ca9956e935ecd053f67bb17f15d8a9" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_DATA</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="32" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a38e15fba788a65cd9b6166571783e15a" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_ACK</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="33" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a065e0986d5b45b93b3963e1186e59c43" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_MAC_COMMAND</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="34" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a509fccd24c7583d5c177a60f43488aa9" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_RESERVED</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="35" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a5ccf5d1f42ea3a4482537abfb00c2158" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_MULTIPURPOSE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="36" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a0e91f7ab2f7156a2ad0662f9853ed13b" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_FRAGMENT</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="37" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1ae77cb3ca2fcb2b59d767eae4bdef5cd5" prot="public" static="no">
+        <name>FRAME_CTRL_TYPE_EXTENDED</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="38" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a2fcd755d3da41c556572ca10e5d37c62" prot="public" static="no">
+        <name>FRAME_CTRL_VER_2003</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="40" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a93487a0f247028911e55f8f56d202048" prot="public" static="no">
+        <name>FRAME_CTRL_VER_2006</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="41" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a77f38274b7ab0af768515bf6acf83051" prot="public" static="no">
+        <name>FRAME_CTRL_VER_2015</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="42" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1aa1aaeefc9e322da0dbe4d24080e2494f" prot="public" static="no">
+        <name>FRAME_CTRL_VER_RESERVED</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="43" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a5e4ea1695acddd46254cfcc997351699" prot="public" static="no">
+        <name>FRAME_CTRL_ADDR_NOT_PRESENT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="45" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a605bea231484090c71a74b609ec4eb5b" prot="public" static="no">
+        <name>FRAME_CTRL_ADDR_RESERVED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="46" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1a2cac91d9d5d25e9d622113fee467fcdc" prot="public" static="no">
+        <name>FRAME_CTRL_ADDR_SHORT</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="47" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1ae65cbd1defe4a01d4e2ccf53f863e4b1" prot="public" static="no">
+        <name>FRAME_CTRL_ADDR_EXTENDED</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="48" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__frame__ctrl_8h_1ab40b41180d83507a7af9ecbda6353bf3" prot="public" static="no">
+        <name>FRAME_CTRL_SIZE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" line="50" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2017<sp/>Kristian<sp/>Maier<sp/>&lt;kristian.maier@gmx.de&gt;.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>software;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_LPWAN_MAC_FIELD_FRAME_CTRL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_LPWAN_MAC_FIELD_FRAME_CTRL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="api_8h" kindref="compound">lpwan/api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mac__field_8h" kindref="compound">mac_field.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegr" kindref="compound">gr</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">lpwan<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="mac__field__frame__ctrl_8h_1a3c6f38eadcd47c5b63aa3c725262404b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_BEACON<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="mac__field__frame__ctrl_8h_1a06ca9956e935ecd053f67bb17f15d8a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="mac__field__frame__ctrl_8h_1a38e15fba788a65cd9b6166571783e15a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_ACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="mac__field__frame__ctrl_8h_1a065e0986d5b45b93b3963e1186e59c43" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_MAC_COMMAND<sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="mac__field__frame__ctrl_8h_1a509fccd24c7583d5c177a60f43488aa9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_RESERVED<sp/><sp/><sp/><sp/><sp/><sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="mac__field__frame__ctrl_8h_1a5ccf5d1f42ea3a4482537abfb00c2158" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_MULTIPURPOSE<sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="mac__field__frame__ctrl_8h_1a0e91f7ab2f7156a2ad0662f9853ed13b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_FRAGMENT<sp/><sp/><sp/><sp/><sp/><sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="mac__field__frame__ctrl_8h_1ae77cb3ca2fcb2b59d767eae4bdef5cd5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_TYPE_EXTENDED<sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="mac__field__frame__ctrl_8h_1a2fcd755d3da41c556572ca10e5d37c62" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_VER_2003<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="mac__field__frame__ctrl_8h_1a93487a0f247028911e55f8f56d202048" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_VER_2006<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="mac__field__frame__ctrl_8h_1a77f38274b7ab0af768515bf6acf83051" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_VER_2015<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="mac__field__frame__ctrl_8h_1aa1aaeefc9e322da0dbe4d24080e2494f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_VER_RESERVED<sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="mac__field__frame__ctrl_8h_1a5e4ea1695acddd46254cfcc997351699" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_ADDR_NOT_PRESENT<sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="mac__field__frame__ctrl_8h_1a605bea231484090c71a74b609ec4eb5b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_ADDR_RESERVED<sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="mac__field__frame__ctrl_8h_1a2cac91d9d5d25e9d622113fee467fcdc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_ADDR_SHORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="mac__field__frame__ctrl_8h_1ae65cbd1defe4a01d4e2ccf53f863e4b1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_ADDR_EXTENDED<sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="mac__field__frame__ctrl_8h_1ab40b41180d83507a7af9ecbda6353bf3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>FRAME_CTRL_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1a810069f2fba897404742c83af3e80baf" kindref="member">lpwan_API</ref><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref><sp/>:<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field" kindref="compound">mac_field</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>get_data();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_data(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;v);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_data(uint16_t<sp/>d);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a81a5fe48b12087c87011e2aef2c6d325" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a81a5fe48b12087c87011e2aef2c6d325" kindref="member">get_frame_type</ref>()<sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_frame_type;}</highlight></codeline>
+<codeline lineno="69" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a1649b543e28e0975320601a7c8fe69af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a1649b543e28e0975320601a7c8fe69af" kindref="member">get_sec_enable</ref>()<sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_sec_enable;}</highlight></codeline>
+<codeline lineno="70" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a820cb80f7d0d79b116d7ca8b29b4f531" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a820cb80f7d0d79b116d7ca8b29b4f531" kindref="member">get_frame_pending</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_frame_pending;}</highlight></codeline>
+<codeline lineno="71" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a07ffa92e5b5d6b9562294fb6d1e068a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a07ffa92e5b5d6b9562294fb6d1e068a4" kindref="member">get_ar</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_ar;}</highlight></codeline>
+<codeline lineno="72" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a68137732b8f15ecc7d5f22bf57c2f49c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a68137732b8f15ecc7d5f22bf57c2f49c" kindref="member">get_pan_id_compr</ref>()<sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_pan_id_compr;}</highlight></codeline>
+<codeline lineno="73" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ad48f2cc3dc0de5b0ea5d337088961643" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ad48f2cc3dc0de5b0ea5d337088961643" kindref="member">get_sequ_nr_suppr</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_sequ_nr_suppr;}</highlight></codeline>
+<codeline lineno="74" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ad172b117f2e0bd5d862490357fab99f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ad172b117f2e0bd5d862490357fab99f1" kindref="member">get_ie_pres</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_ie_pres;}</highlight></codeline>
+<codeline lineno="75" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a6feee246a9281e46d687892616b47c25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a6feee246a9281e46d687892616b47c25" kindref="member">get_dest_addr_mode</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_dest_addr_mode;}</highlight></codeline>
+<codeline lineno="76" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a491512e96fe0988bbdd030b807e0cbeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a491512e96fe0988bbdd030b807e0cbeb" kindref="member">get_frame_vers</ref>()<sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_frame_vers;}</highlight></codeline>
+<codeline lineno="77" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a148776d5d87d7d6fe9019067c5ee5001" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a148776d5d87d7d6fe9019067c5ee5001" kindref="member">get_src_addr_mode</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_src_addr_mode;}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1aac6f5ec49e0cdd8e294cb63570ec0680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1aac6f5ec49e0cdd8e294cb63570ec0680" kindref="member">set_frame_type</ref>(uint8_t<sp/>ft)<sp/><sp/><sp/><sp/><sp/>{d_frame_type<sp/>=<sp/>ft;}</highlight></codeline>
+<codeline lineno="80" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a8268a923bd2c4ebcf245bd1bcd659485" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a8268a923bd2c4ebcf245bd1bcd659485" kindref="member">set_sec_enable</ref>(uint8_t<sp/>se)<sp/><sp/><sp/><sp/><sp/>{d_sec_enable<sp/>=<sp/>se;}</highlight></codeline>
+<codeline lineno="81" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a86049e66b5cec1eadd84a079ba3b9e8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a86049e66b5cec1eadd84a079ba3b9e8d" kindref="member">set_frame_pending</ref>(uint8_t<sp/>fp)<sp/><sp/>{d_frame_pending<sp/>=<sp/>fp;}</highlight></codeline>
+<codeline lineno="82" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a9b0f73dfda59373b5188943f2a105e5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a9b0f73dfda59373b5188943f2a105e5c" kindref="member">set_ar</ref>(uint8_t<sp/>ar)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{d_ar<sp/>=<sp/>ar;}</highlight></codeline>
+<codeline lineno="83" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a0ebb6e686164f91e30a754cbe9e9e247" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a0ebb6e686164f91e30a754cbe9e9e247" kindref="member">set_pan_id_compr</ref>(uint8_t<sp/>pic)<sp/><sp/>{d_pan_id_compr<sp/>=<sp/>pic;}</highlight></codeline>
+<codeline lineno="84" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a90df8ef4d806f416abd1e84246bf5c8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a90df8ef4d806f416abd1e84246bf5c8c" kindref="member">set_sequ_nr_suppr</ref>(uint8_t<sp/>sns)<sp/>{d_sequ_nr_suppr<sp/>=<sp/>sns;}</highlight></codeline>
+<codeline lineno="85" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a92e18c93b2f480d3db246502b2051d50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a92e18c93b2f480d3db246502b2051d50" kindref="member">set_ie_pres</ref>(uint8_t<sp/>iep)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{d_ie_pres<sp/>=<sp/>iep;}</highlight></codeline>
+<codeline lineno="86" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ac97d100f1fda36bc822890ee07b6430e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ac97d100f1fda36bc822890ee07b6430e" kindref="member">set_dest_addr_mode</ref>(uint8_t<sp/>dam){d_dest_addr_mode<sp/>=<sp/>dam;}</highlight></codeline>
+<codeline lineno="87" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ac829c2e944b708e252f58e8f13d542e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1ac829c2e944b708e252f58e8f13d542e8" kindref="member">set_frame_vers</ref>(uint8_t<sp/>fv)<sp/><sp/><sp/><sp/><sp/>{d_frame_vers<sp/>=<sp/>fv;}</highlight></codeline>
+<codeline lineno="88" refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a25a679881a1c0e8e1ee06232c855648b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a25a679881a1c0e8e1ee06232c855648b" kindref="member">set_src_addr_mode</ref>(uint8_t<sp/>srm)<sp/>{d_src_addr_mode<sp/>=<sp/>srm;}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;v);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref>(uint16_t<sp/>d);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref>();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_frame_type;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_sec_enable;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_frame_pending;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_ar;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_pan_id_compr;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_sequ_nr_suppr;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_ie_pres;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_dest_addr_mode;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_frame_vers;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_src_addr_mode;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>lpwan</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LPWAN_MAC_FIELD_FRAME_CTRL_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h"/>
+  </compounddef>
+</doxygen>

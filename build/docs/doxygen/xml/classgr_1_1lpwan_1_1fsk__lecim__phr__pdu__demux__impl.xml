@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux" prot="public" virt="non-virtual">gr::lpwan::fsk_lecim_phr_pdu_demux</basecompoundref>
+    <includes refid="fsk__lecim__phr__pdu__demux__impl_8h" local="no">fsk_lecim_phr_pdu_demux_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1aa8b35872e3b8c908b1b85b26a5c1d384" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_header_len</definition>
+        <argsstring></argsstring>
+        <name>d_header_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="32" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a6f4ccbc163cafed25e856468af96a3ff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_sps</definition>
+        <argsstring></argsstring>
+        <name>d_sps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="33" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a4c5626a4fc13fd656f4fda3611a8d46d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_symbol_rate</definition>
+        <argsstring></argsstring>
+        <name>d_symbol_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="34" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a132e33924f8553aed083ca32b3e053e9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="35" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a2129cbe470d92fa2b9698f14374fdbf6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_phr_error</definition>
+        <argsstring></argsstring>
+        <name>d_phr_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="36" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1acc18d7ec7d050144439d088f1ab5b2e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_sf</definition>
+        <argsstring></argsstring>
+        <name>d_sf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="37" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1abf197faace3dcb88bd3f61064444c943" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_key</definition>
+        <argsstring></argsstring>
+        <name>d_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="38" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a397adf2c1d16ada9da151f9e70917043" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_len_tag_key</definition>
+        <argsstring></argsstring>
+        <name>d_len_tag_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="39" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a11e945d0236f37da7a48ae42e2ee9b63" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_output_symbols</definition>
+        <argsstring></argsstring>
+        <name>d_output_symbols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="40" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a79c88472f1a0a67d5ab7f6504c3f601e" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="41" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1aec1beeb729fdc51309662d48d013a969" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_curr_payload_len</definition>
+        <argsstring></argsstring>
+        <name>d_curr_payload_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="42" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1ad59cbf423280a74eb0cda63c67384dd4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_counter_phr</definition>
+        <argsstring></argsstring>
+        <name>d_counter_phr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="43" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a64a2cd366774856e6ee9ade458ec1ee7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_counter_pdu</definition>
+        <argsstring></argsstring>
+        <name>d_counter_pdu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="44" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a79a9543e62ab5ecf8d349f9ec80f657a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_nblock</definition>
+        <argsstring></argsstring>
+        <name>d_nblock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="45" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1aaeadf82bd2301d81b116f7081b52ea2a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::d_n_to_send</definition>
+        <argsstring></argsstring>
+        <name>d_n_to_send</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="46" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1affece20f7a40b05fb2ab791b8bdd2e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::fsk_lecim_phr_pdu_demux_impl::check_buffers_ready</definition>
+        <argsstring>(int output_items_reqd, int noutput_items, int input_items_reqd, gr_vector_int &amp;ninput_items, int n_items_read)</argsstring>
+        <name>check_buffers_ready</name>
+        <param>
+          <type>int</type>
+          <declname>output_items_reqd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>input_items_reqd</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_items_read</declname>
+        </param>
+        <briefdescription>
+<para>Checks if there are enough items on the inputs and enough space on the output buffers to copy <computeroutput>n_items</computeroutput> items. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a873ed56171b54cd693b72d01153e3fdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::get_n_block</definition>
+        <argsstring>()</argsstring>
+        <name>get_n_block</name>
+        <briefdescription>
+<para>Return N block. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a8779d72761ec2ac4599a50046444a4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::find_signal</definition>
+        <argsstring>(int noutput_items, uint64_t base_offset, const unsigned char *in)</argsstring>
+        <name>find_signal</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>base_offset</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+<para>Helper function that returns the rel offset of the corr start tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a57c261341e6ebb23cdda45ba0532c261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::fsk_lecim_phr_pdu_demux_impl::copy_n_items</definition>
+        <argsstring>(const unsigned char *in, unsigned char *out, int port, int n_items)</argsstring>
+        <name>copy_n_items</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_items</declname>
+        </param>
+        <briefdescription>
+<para>Copies n items from in to out. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a81c9e8f685bc375ac22a88d59212d57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::fsk_lecim_phr_pdu_demux_impl::fsk_lecim_phr_pdu_demux_impl</definition>
+        <argsstring>(int sps, int symbol_rate, int sf, bool output_symbols)</argsstring>
+        <name>fsk_lecim_phr_pdu_demux_impl</name>
+        <param>
+          <type>int</type>
+          <declname>sps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>symbol_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_symbols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a97a706195b3d560e5258a22894b96370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::fsk_lecim_phr_pdu_demux_impl::~fsk_lecim_phr_pdu_demux_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~fsk_lecim_phr_pdu_demux_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a30fbc31ec63948a6c9245d8c0f5bc34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::fsk_lecim_phr_pdu_demux_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a4977060c3919e13576b31e58d70e1391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_phr_pdu_demux_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="85" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="210">
+        <label>gr::lpwan::fsk_lecim_phr_pdu_demux</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="213">
+        <label>gr::lpwan::fsk_lecim_phr_pdu_demux</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" line="30" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_phr_pdu_demux_impl.h" bodystart="29" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1affece20f7a40b05fb2ab791b8bdd2e01" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>check_buffers_ready</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a57c261341e6ebb23cdda45ba0532c261" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>copy_n_items</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a64a2cd366774856e6ee9ade458ec1ee7" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_counter_pdu</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1ad59cbf423280a74eb0cda63c67384dd4" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_counter_phr</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1aec1beeb729fdc51309662d48d013a969" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_curr_payload_len</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1aa8b35872e3b8c908b1b85b26a5c1d384" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_header_len</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a79c88472f1a0a67d5ab7f6504c3f601e" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1abf197faace3dcb88bd3f61064444c943" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_key</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a397adf2c1d16ada9da151f9e70917043" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_len_tag_key</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1aaeadf82bd2301d81b116f7081b52ea2a" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_n_to_send</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a79a9543e62ab5ecf8d349f9ec80f657a" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_nblock</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a11e945d0236f37da7a48ae42e2ee9b63" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_output_symbols</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a2129cbe470d92fa2b9698f14374fdbf6" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_phr_error</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1acc18d7ec7d050144439d088f1ab5b2e5" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_sf</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a6f4ccbc163cafed25e856468af96a3ff" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_sps</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a132e33924f8553aed083ca32b3e053e9" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a4c5626a4fc13fd656f4fda3611a8d46d" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>d_symbol_rate</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a8779d72761ec2ac4599a50046444a4a4" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>find_signal</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a30fbc31ec63948a6c9245d8c0f5bc34e" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a81c9e8f685bc375ac22a88d59212d57d" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>fsk_lecim_phr_pdu_demux_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a4977060c3919e13576b31e58d70e1391" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a873ed56171b54cd693b72d01153e3fdc" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>get_n_block</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux_1a63e7285b7f3c6a43319916c08133e848" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux_1a1f4673de54c41dbe1146dbf934805599" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux__impl_1a97a706195b3d560e5258a22894b96370" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_phr_pdu_demux_impl</scope><name>~fsk_lecim_phr_pdu_demux_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

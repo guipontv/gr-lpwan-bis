@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1fsk__lecim__interleaver" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::fsk_lecim_interleaver</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver__impl" prot="public" virt="non-virtual">gr::lpwan::fsk_lecim_interleaver_impl</derivedcompoundref>
+    <includes refid="fsk__lecim__interleaver_8h" local="no">fsk_lecim_interleaver.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1fsk__lecim__interleaver_1aae5b3cf99b3363d76aa54c2f0007f347" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver" kindref="compound">fsk_lecim_interleaver</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;fsk_lecim_interleaver&gt; gr::lpwan::fsk_lecim_interleaver::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h" line="39" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__interleaver_1a1fc657ab516d58941eec3178ead71295" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver_1aae5b3cf99b3363d76aa54c2f0007f347" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::fsk_lecim_interleaver::make</definition>
+        <argsstring>(bool phr, int nBlock, std::string len_tag)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>phr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBlock</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver" kindref="compound">lpwan::fsk_lecim_interleaver</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver" kindref="compound">lpwan::fsk_lecim_interleaver</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver_1a1fc657ab516d58941eec3178ead71295" kindref="member">lpwan::fsk_lecim_interleaver::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="183">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="182">
+        <label>gr::lpwan::fsk_lecim_interleaver</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>gr::lpwan::fsk_lecim_interleaver_impl</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver__impl"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="186">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="185">
+        <label>gr::lpwan::fsk_lecim_interleaver</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h" line="37" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver_1a1fc657ab516d58941eec3178ead71295" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_interleaver</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver_1aae5b3cf99b3363d76aa54c2f0007f347" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_interleaver</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

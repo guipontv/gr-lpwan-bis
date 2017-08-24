@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_snr_estimator_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1dsss__snr__estimator" prot="public" virt="non-virtual">gr::lpwan::dsss_snr_estimator</basecompoundref>
+    <includes refid="dsss__snr__estimator__impl_8h" local="no">dsss_snr_estimator_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a52aaaeb2160edd0978d46d545e4fcb73" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_snr_estimator_impl::d_codebits_len</definition>
+        <argsstring></argsstring>
+        <name>d_codebits_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="31" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ae1a3e12b0e084510c4613a36403b2693" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_snr_estimator_impl::d_sf</definition>
+        <argsstring></argsstring>
+        <name>d_sf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="32" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ab403bdf26dda0cbeb3afe1088851c1d2" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::deque&lt;std::vector&lt;float&gt; &gt; gr::lpwan::dsss_snr_estimator_impl::d_soft_bits</definition>
+        <argsstring></argsstring>
+        <name>d_soft_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="34" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a836b869e662ede77d4d751ec5160eabe" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; std::vector&lt; uint8_t &gt; &gt;</type>
+        <definition>std::deque&lt;std::vector&lt;uint8_t &gt; &gt; gr::lpwan::dsss_snr_estimator_impl::d_hard_bits</definition>
+        <argsstring></argsstring>
+        <name>d_hard_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="35" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a34c9902f1857f134964a24fb2a024872" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; std::vector&lt; uint8_t &gt; &gt;</type>
+        <definition>std::deque&lt;std::vector&lt;uint8_t &gt; &gt; gr::lpwan::dsss_snr_estimator_impl::d_hard_bits_checked</definition>
+        <argsstring></argsstring>
+        <name>d_hard_bits_checked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="36" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1af110f4a5396a972d9bdc06d38b0a7f2e" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; std::vector&lt; uint8_t &gt; &gt;</type>
+        <definition>std::deque&lt;std::vector&lt;uint8_t &gt; &gt; gr::lpwan::dsss_snr_estimator_impl::d_hard_bits_unchecked</definition>
+        <argsstring></argsstring>
+        <name>d_hard_bits_unchecked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="37" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a404e6139d46df61853a19bd12ceac046" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_snr_estimator_impl::in_hard_fec_enc</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>in_hard_fec_enc</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ae4b41939d33f9d37b6e544bb88c502f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_snr_estimator_impl::in_hard</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>in_hard</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ab5d1db6bce210e6c3ce3e27616ce8f9f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_snr_estimator_impl::in_hard_fec_dec</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>in_hard_fec_dec</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ae636fd62b139a880c2a9b2d58840b348" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_snr_estimator_impl::in_soft</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>in_soft</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a3be8fb778002c5f1c1b37c5890d1788f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_snr_estimator_impl::calc_snr</definition>
+        <argsstring>()</argsstring>
+        <name>calc_snr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ab4640f90cc34e74f4b6456749871ccd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_snr_estimator_impl::dsss_snr_estimator_impl</definition>
+        <argsstring>(int psdu_size, int sf)</argsstring>
+        <name>dsss_snr_estimator_impl</name>
+        <param>
+          <type>int</type>
+          <declname>psdu_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a88d99111ca6db67403322e44fc4b44e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_snr_estimator_impl::~dsss_snr_estimator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dsss_snr_estimator_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a5b20b3cb6b3876be843b7562a14f2000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_snr_estimator_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="144">
+        <label>gr::lpwan::dsss_snr_estimator</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__snr__estimator"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>sync_block</label>
+      </node>
+      <node id="143">
+        <label>gr::lpwan::dsss_snr_estimator_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="147">
+        <label>gr::lpwan::dsss_snr_estimator</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__snr__estimator"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>sync_block</label>
+      </node>
+      <node id="146">
+        <label>gr::lpwan::dsss_snr_estimator_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" line="29" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_snr_estimator_impl.h" bodystart="28" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a3be8fb778002c5f1c1b37c5890d1788f" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>calc_snr</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a52aaaeb2160edd0978d46d545e4fcb73" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>d_codebits_len</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a836b869e662ede77d4d751ec5160eabe" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>d_hard_bits</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a34c9902f1857f134964a24fb2a024872" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>d_hard_bits_checked</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1af110f4a5396a972d9bdc06d38b0a7f2e" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>d_hard_bits_unchecked</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ae1a3e12b0e084510c4613a36403b2693" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>d_sf</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ab403bdf26dda0cbeb3afe1088851c1d2" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>d_soft_bits</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ab4640f90cc34e74f4b6456749871ccd9" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>dsss_snr_estimator_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ae4b41939d33f9d37b6e544bb88c502f1" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>in_hard</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ab5d1db6bce210e6c3ce3e27616ce8f9f" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>in_hard_fec_dec</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a404e6139d46df61853a19bd12ceac046" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>in_hard_fec_enc</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1ae636fd62b139a880c2a9b2d58840b348" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>in_soft</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator_1a078d2b8b26120e01d4557e404fad5303" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator_1ac639a8fc588e0595a9a8631e128eb7f3" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a5b20b3cb6b3876be843b7562a14f2000" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__snr__estimator__impl_1a88d99111ca6db67403322e44fc4b44e2" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_snr_estimator_impl</scope><name>~dsss_snr_estimator_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

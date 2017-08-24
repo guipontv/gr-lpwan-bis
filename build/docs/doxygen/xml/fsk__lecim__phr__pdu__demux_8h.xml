@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="fsk__lecim__phr__pdu__demux_8h" kind="file" language="C++">
+    <compoundname>fsk_lecim_phr_pdu_demux.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="fsk__lecim__phr__pdu__demux__impl_8h" local="no">fsk_lecim_phr_pdu_demux_impl.h</includedby>
+    <incdepgraph>
+      <node id="303">
+        <label>fsk_lecim_phr_pdu_demux.h</label>
+        <link refid="fsk__lecim__phr__pdu__demux_8h"/>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="304">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="305" relation="include">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="307">
+        <label>fsk_lecim_phr_pdu_demux.h</label>
+        <link refid="fsk__lecim__phr__pdu__demux_8h"/>
+        <childnode refid="308" relation="include">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>fsk_lecim_phr_pdu_demux_impl.h</label>
+        <link refid="fsk__lecim__phr__pdu__demux__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux" prot="public">gr::lpwan::fsk_lecim_phr_pdu_demux</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_phr_pdu_demux.h"/>
+  </compounddef>
+</doxygen>

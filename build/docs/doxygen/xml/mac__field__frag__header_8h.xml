@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mac__field__frag__header_8h" kind="file" language="C++">
+    <compoundname>mac_field_frag_header.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes refid="mac__field_8h" local="yes">mac_field.h</includes>
+    <includes refid="mac__field__frame__ctrl_8h" local="yes">mac_field_frame_ctrl.h</includes>
+    <includedby refid="mac__field__fragment_8h" local="yes">mac_field_fragment.h</includedby>
+    <includedby refid="mac__field__frak_8h" local="yes">mac_field_frak.h</includedby>
+    <incdepgraph>
+      <node id="354">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="356">
+        <label>mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>mac_field_frag_header.h</label>
+        <link refid="mac__field__frag__header_8h"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="357">
+        <label>mac_field_frag_header.h</label>
+        <link refid="mac__field__frag__header_8h"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>mac_field_frak.h</label>
+        <link refid="mac__field__frak_8h"/>
+        <childnode refid="360" relation="include">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>dsss_fragmentation_impl.h</label>
+        <link refid="dsss__fragmentation__impl_8h"/>
+      </node>
+      <node id="358">
+        <label>mac_field_fragment.h</label>
+        <link refid="mac__field__fragment_8h"/>
+        <childnode refid="359" relation="include">
+        </childnode>
+        <childnode refid="360" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frag__header" prot="public">gr::lpwan::mac_field_frag_header</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_header.h"/>
+  </compounddef>
+</doxygen>

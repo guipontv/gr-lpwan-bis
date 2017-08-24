@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mac__field__header__ie_8h" kind="file" language="C++">
+    <compoundname>mac_field_header_ie.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes refid="mac__field_8h" local="yes">mac_field.h</includes>
+    <includes refid="mac__format_8h" local="yes">mac_format.h</includes>
+    <includedby refid="mac__field__frame_8h" local="yes">mac_field_frame.h</includedby>
+    <includedby refid="mac__field__ie__fscd_8h" local="yes">mac_field_ie_fscd.h</includedby>
+    <incdepgraph>
+      <node id="414">
+        <label>mac_field_header_ie.h</label>
+        <link refid="mac__field__header__ie_8h"/>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="417">
+        <label>mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="415" relation="include">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="416" relation="include">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="418">
+        <label>mac_format.h</label>
+        <link refid="mac__format_8h"/>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="420">
+        <label>mac_field_header_ie.h</label>
+        <link refid="mac__field__header__ie_8h"/>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>dsss_fragmentation_impl.h</label>
+        <link refid="dsss__fragmentation__impl_8h"/>
+      </node>
+      <node id="422">
+        <label>mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="421" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__header__ie" prot="public">gr::lpwan::mac_field_header_ie</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="mac__field__header__ie_8h_1aa52cc314a162a26ff6f430106968256e" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_VENDOR_SPECIFIC</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="32" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__header__ie_8h_1a51805d7af88f2327ed8dc182e8650978" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_CSL</name>
+        <initializer>0x1a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="33" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__header__ie_8h_1a071205b5a1f4751826f9eca93162ff89" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_RIT</name>
+        <initializer>0x1b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="34" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__header__ie_8h_1a46a54850c45bf45be541ebe32a67e3e8" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_FSCD</name>
+        <initializer>0x22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="35" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__header__ie_8h_1a455060bd86a79b873309e07bbf3d1ea8" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_LECIM_CAP</name>
+        <initializer>0x25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="36" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__header__ie_8h_1af220ef90c0e0e266673868855758bea1" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_TERMINATION_1</name>
+        <initializer>0x7e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="37" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__header__ie_8h_1a7d9fc53f414d946dd6a7c7229bded4eb" prot="public" static="no">
+        <name>HEAD_IE_ELE_ID_TERMINATION_2</name>
+        <initializer>0x7f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" line="38" column="13" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h"/>
+  </compounddef>
+</doxygen>

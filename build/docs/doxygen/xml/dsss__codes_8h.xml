@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dsss__codes_8h" kind="file" language="C++">
+    <compoundname>dsss_codes.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <incdepgraph>
+      <node id="71">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="70">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>dsss_codes.h</label>
+        <link refid="dsss__codes_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__codes" prot="public">gr::lpwan::dsss_codes</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h"/>
+  </compounddef>
+</doxygen>

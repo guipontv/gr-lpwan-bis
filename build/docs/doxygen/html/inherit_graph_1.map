@@ -1,0 +1,18 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classgr_1_1lpwan_1_1conj__multiply__delay__ccc.html" title="&lt;+description of block+&gt; " alt="" coords="148,5,308,47"/>
+<area shape="rect" id="node4" href="$classgr_1_1lpwan_1_1dsss__filter__crc__packets.html" title="Filters out packets with unsuccessful CRC check. " alt="" coords="156,71,300,112"/>
+<area shape="rect" id="node6" href="$classgr_1_1lpwan_1_1dsss__preamble__demod__cc.html" title="Preamble Demodulation/Correlation. " alt="" coords="141,136,315,177"/>
+<area shape="rect" id="node8" href="$classgr_1_1lpwan_1_1dsss__preamble__detector__cc.html" title="Detects the preamble. " alt="" coords="141,201,315,243"/>
+<area shape="rect" id="node10" href="$classgr_1_1lpwan_1_1dsss__snr__estimator.html" title="Estimates the SNR of received packets. It discards CRC&#45;failed packets and operates only on packets wi..." alt="" coords="159,267,297,308"/>
+<area shape="rect" id="node12" href="$classgr_1_1lpwan_1_1fsk__lecim__corr__est__cc.html" title="&lt;+description of block+&gt; " alt="" coords="159,332,297,373"/>
+<area shape="rect" id="node14" href="$classgr_1_1lpwan_1_1fsk__lecim__normalize__fcc.html" title="&lt;+description of block+&gt; " alt="" coords="159,397,297,439"/>
+<area shape="rect" id="node16" href="$classgr_1_1lpwan_1_1fsk__lecim__time__synchronizer__cc.html" title="&lt;+description of block+&gt; " alt="" coords="149,463,307,504"/>
+<area shape="rect" id="node3" href="$classgr_1_1lpwan_1_1conj__multiply__delay__ccc__impl.html" title="gr::lpwan::conj_multiply\l_delay_ccc_impl" alt="" coords="378,5,538,47"/>
+<area shape="rect" id="node5" href="$classgr_1_1lpwan_1_1dsss__filter__crc__packets__impl.html" title="gr::lpwan::dsss_filter\l_crc_packets_impl" alt="" coords="386,71,530,112"/>
+<area shape="rect" id="node7" href="$classgr_1_1lpwan_1_1dsss__preamble__demod__cc__impl.html" title="gr::lpwan::dsss_preamble\l_demod_cc_impl" alt="" coords="371,136,545,177"/>
+<area shape="rect" id="node9" href="$classgr_1_1lpwan_1_1dsss__preamble__detector__cc__impl.html" title="gr::lpwan::dsss_preamble\l_detector_cc_impl" alt="" coords="371,201,545,243"/>
+<area shape="rect" id="node11" href="$classgr_1_1lpwan_1_1dsss__snr__estimator__impl.html" title="gr::lpwan::dsss_snr\l_estimator_impl" alt="" coords="389,267,527,308"/>
+<area shape="rect" id="node13" href="$classgr_1_1lpwan_1_1fsk__lecim__corr__est__cc__impl.html" title="gr::lpwan::fsk_lecim\l_corr_est_cc_impl" alt="" coords="389,332,527,373"/>
+<area shape="rect" id="node15" href="$classgr_1_1lpwan_1_1fsk__lecim__normalize__fcc__impl.html" title="gr::lpwan::fsk_lecim\l_normalize_fcc_impl" alt="" coords="386,397,530,439"/>
+<area shape="rect" id="node17" href="$classgr_1_1lpwan_1_1fsk__lecim__time__synchronizer__cc__impl.html" title="gr::lpwan::fsk_lecim\l_time_synchronizer_cc_impl" alt="" coords="363,463,553,504"/>
+</map>

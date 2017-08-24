@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__preamble__demod__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_preamble_demod_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="dsss__preamble__demod__cc_8h" local="no">dsss_preamble_demod_cc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1dsss__preamble__demod__cc_1a3579d992eb61a25e1d163bf42d1bc60e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc" kindref="compound">dsss_preamble_demod_cc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;dsss_preamble_demod_cc&gt; gr::lpwan::dsss_preamble_demod_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h" line="42" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__preamble__demod__cc_1acdde2a94cb0a5f86e6d80b69ad96b849" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc_1a3579d992eb61a25e1d163bf42d1bc60e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::dsss_preamble_demod_cc::make</definition>
+        <argsstring>(int sf, int sps, int preamble_length, bool sfd_present)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>sf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>preamble_length</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sfd_present</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc" kindref="compound">lpwan::dsss_preamble_demod_cc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spreading factor of shr </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples per symbol </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preamble_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the preamble in bits </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sfd_present</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Preamble Demodulation/Correlation. </para>    </briefdescription>
+    <detaileddescription>
+<para>out[n] = Sum_N_i(in(n+i*sf*sps) * preamble(i)) </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>sync_block</label>
+      </node>
+      <node id="46">
+        <label>gr::lpwan::dsss_preamble_demod_cc</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>sync_block</label>
+      </node>
+      <node id="48">
+        <label>gr::lpwan::dsss_preamble_demod_cc</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h" line="40" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h" bodystart="39" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc_1acdde2a94cb0a5f86e6d80b69ad96b849" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_preamble_demod_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc_1a3579d992eb61a25e1d163bf42d1bc60e" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_preamble_demod_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

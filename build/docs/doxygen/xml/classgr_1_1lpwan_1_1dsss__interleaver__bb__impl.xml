@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_interleaver_bb_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1dsss__interleaver__bb" prot="public" virt="non-virtual">gr::lpwan::dsss_interleaver_bb</basecompoundref>
+    <includes refid="dsss__interleaver__bb__impl_8h" local="no">dsss_interleaver_bb_impl.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1a65c7519cfad66bce6c7ca0519aa49881" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_interleaver_bb_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_interleaver_bb_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1a07dfedfd94ee4a1dbbe4e1994178fed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_interleaver_bb_impl::dsss_interleaver_bb_impl</definition>
+        <argsstring>(std::string len_tag)</argsstring>
+        <name>dsss_interleaver_bb_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_interleaver_bb_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1aadf9647fcfb5f1e8a083f41b13f2b37e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_interleaver_bb_impl::~dsss_interleaver_bb_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dsss_interleaver_bb_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_interleaver_bb_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1a91c0177fc98f032175bb24400ffa91ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_interleaver_bb_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_interleaver_bb_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>gr::lpwan::dsss_interleaver_bb_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="100">
+        <label>gr::lpwan::dsss_interleaver_bb</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__interleaver__bb"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="102">
+        <label>gr::lpwan::dsss_interleaver_bb_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="103">
+        <label>gr::lpwan::dsss_interleaver_bb</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__interleaver__bb"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_interleaver_bb_impl.h" line="30" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_interleaver_bb_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1a65c7519cfad66bce6c7ca0519aa49881" prot="protected" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1a07dfedfd94ee4a1dbbe4e1994178fed4" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb_impl</scope><name>dsss_interleaver_bb_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb_1a1c43edebeaab5812080473f5152ff0b1" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb_1aba0ae466f8d6473b873746ba25460c63" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1a91c0177fc98f032175bb24400ffa91ee" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb__impl_1aadf9647fcfb5f1e8a083f41b13f2b37e" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb_impl</scope><name>~dsss_interleaver_bb_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

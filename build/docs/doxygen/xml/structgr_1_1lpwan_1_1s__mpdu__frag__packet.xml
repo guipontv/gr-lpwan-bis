@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kind="struct" language="C++" prot="public">
+    <compoundname>gr::lpwan::s_mpdu_frag_packet</compoundname>
+    <includes refid="dsss__fragmentation__impl_8h" local="no">dsss_fragmentation_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a62981b7dfb7b39777bbde00ae1dca202" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::nr_of_frags</definition>
+        <argsstring></argsstring>
+        <name>nr_of_frags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="39" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a0d57b94c93a1cd14a060ec9dd759b5dd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::mpdu_size</definition>
+        <argsstring></argsstring>
+        <name>mpdu_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="40" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a90d262eaab76b7474faffd9dfba16e5a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::tid</definition>
+        <argsstring></argsstring>
+        <name>tid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="41" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1ab927798c627dff6cbe06eb13360bbf7f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::frak_policy_rx</definition>
+        <argsstring></argsstring>
+        <name>frak_policy_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="42" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a461c14e4ac3d96bba20ae857e379a0d0" prot="public" static="no" mutable="no">
+        <type><ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref></type>
+        <definition>address_info gr::lpwan::s_mpdu_frag_packet::ai</definition>
+        <argsstring></argsstring>
+        <name>ai</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="43" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1abd61b144e351252bde11657a3546811b" prot="public" static="no" mutable="no">
+        <type>std::deque&lt; <ref refid="classgr_1_1lpwan_1_1mac__field__fragment" kindref="compound">mac_field_fragment</ref> &gt;</type>
+        <definition>std::deque&lt;mac_field_fragment&gt; gr::lpwan::s_mpdu_frag_packet::fragments</definition>
+        <argsstring></argsstring>
+        <name>fragments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="46" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a5924df8be2a70bedae3c35759dd170dd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::lpwan::s_mpdu_frag_packet::recv_frags</definition>
+        <argsstring></argsstring>
+        <name>recv_frags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="47" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1ac459c799433904062fc702dd0cace71b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::cnt_frags</definition>
+        <argsstring></argsstring>
+        <name>cnt_frags</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="48" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a647f0478cca148abe88bc6be39d33373" prot="public" static="no" mutable="no">
+        <type>std::chrono::time_point&lt; std::chrono::steady_clock &gt;</type>
+        <definition>std::chrono::time_point&lt;std::chrono::steady_clock&gt; gr::lpwan::s_mpdu_frag_packet::last_frag_time</definition>
+        <argsstring></argsstring>
+        <name>last_frag_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="49" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a8470e7fb5d7139d44ed7481b6ac4184d" prot="public" static="no" mutable="no">
+        <type>std::chrono::time_point&lt; std::chrono::steady_clock &gt;</type>
+        <definition>std::chrono::time_point&lt;std::chrono::steady_clock&gt; gr::lpwan::s_mpdu_frag_packet::last_frak_time</definition>
+        <argsstring></argsstring>
+        <name>last_frak_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="52" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a01241a1756f489350cd79241bd384dc1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::cnt_fraks</definition>
+        <argsstring></argsstring>
+        <name>cnt_fraks</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="53" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1afe7df8810371b9d321d5c24260cdaef1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::s_mpdu_frag_packet::force_one_frak</definition>
+        <argsstring></argsstring>
+        <name>force_one_frak</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="54" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a73d154f9fa70060a7d787c7d095f5542" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" kindref="compound">mac_field_ie_fscd</ref> *</type>
+        <definition>mac_field_ie_fscd* gr::lpwan::s_mpdu_frag_packet::fscd_ie</definition>
+        <argsstring></argsstring>
+        <name>fscd_ie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="57" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a0ace9464a8c461fa699611fa822225be" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::s_mpdu_frag_packet::fscd_acknowledged</definition>
+        <argsstring></argsstring>
+        <name>fscd_acknowledged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="58" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a6ad23ac11e6a2747cf1a515fd5b80d55" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::s_mpdu_frag_packet::fscd_sent</definition>
+        <argsstring></argsstring>
+        <name>fscd_sent</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="59" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1ad6728447306f726f29c3d697194a7945" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::s_mpdu_frag_packet::fscd_retry</definition>
+        <argsstring></argsstring>
+        <name>fscd_retry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="60" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a225abf2420b5d14d2f2db61c76f4e6c2" prot="public" static="no" mutable="no">
+        <type>std::chrono::time_point&lt; std::chrono::steady_clock &gt;</type>
+        <definition>std::chrono::time_point&lt;std::chrono::steady_clock&gt; gr::lpwan::s_mpdu_frag_packet::fscd_time</definition>
+        <argsstring></argsstring>
+        <name>fscd_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="61" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a3c3f38920e4c12993a4800fe2ac4b455" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::s_mpdu_frag_packet::abort_me</definition>
+        <argsstring></argsstring>
+        <name>abort_me</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="64" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1aea19bf191e219776a8fd3061c46556cc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::s_mpdu_frag_packet::aborted</definition>
+        <argsstring></argsstring>
+        <name>aborted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="65" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1afae7988a61585953f5686dd2dabce377" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::s_mpdu_frag_packet::finished</definition>
+        <argsstring></argsstring>
+        <name>finished</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="66" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="282">
+        <label>gr::lpwan::mac_field_ie_fscd</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__ie__fscd"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>gr::lpwan::s_mpdu_frag_packet</label>
+        <link refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet"/>
+        <childnode refid="277" relation="usage">
+          <edgelabel>fragments</edgelabel>
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>ai</edgelabel>
+        </childnode>
+        <childnode refid="281" relation="usage">
+          <edgelabel>recv_frags</edgelabel>
+        </childnode>
+        <childnode refid="282" relation="usage">
+          <edgelabel>fscd_ie</edgelabel>
+        </childnode>
+      </node>
+      <node id="279">
+        <label>gr::lpwan::mac_field</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field"/>
+      </node>
+      <node id="280">
+        <label>gr::lpwan::address_info</label>
+        <link refid="structgr_1_1lpwan_1_1address__info"/>
+      </node>
+      <node id="278">
+        <label>gr::lpwan::mac_field_fragment</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__fragment"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>std::deque&lt; gr::lpwan::mac_field_fragment &gt;</label>
+        <childnode refid="278" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="283">
+        <label>gr::lpwan::mac_field_header_ie</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__header__ie"/>
+        <childnode refid="279" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="37" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="37" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a3c3f38920e4c12993a4800fe2ac4b455" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>abort_me</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1aea19bf191e219776a8fd3061c46556cc" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>aborted</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a461c14e4ac3d96bba20ae857e379a0d0" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>ai</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1ac459c799433904062fc702dd0cace71b" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>cnt_frags</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a01241a1756f489350cd79241bd384dc1" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>cnt_fraks</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1afae7988a61585953f5686dd2dabce377" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>finished</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1afe7df8810371b9d321d5c24260cdaef1" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>force_one_frak</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1abd61b144e351252bde11657a3546811b" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>fragments</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1ab927798c627dff6cbe06eb13360bbf7f" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>frak_policy_rx</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a0ace9464a8c461fa699611fa822225be" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>fscd_acknowledged</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a73d154f9fa70060a7d787c7d095f5542" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>fscd_ie</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1ad6728447306f726f29c3d697194a7945" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>fscd_retry</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a6ad23ac11e6a2747cf1a515fd5b80d55" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>fscd_sent</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a225abf2420b5d14d2f2db61c76f4e6c2" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>fscd_time</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a647f0478cca148abe88bc6be39d33373" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>last_frag_time</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a8470e7fb5d7139d44ed7481b6ac4184d" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>last_frak_time</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a0d57b94c93a1cd14a060ec9dd759b5dd" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>mpdu_size</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a62981b7dfb7b39777bbde00ae1dca202" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>nr_of_frags</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a5924df8be2a70bedae3c35759dd170dd" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>recv_frags</name></member>
+      <member refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet_1a90d262eaab76b7474faffd9dfba16e5a" prot="public" virt="non-virtual"><scope>gr::lpwan::s_mpdu_frag_packet</scope><name>tid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

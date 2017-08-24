@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__codes" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_codes</compoundname>
+    <includes refid="dsss__codes_8h" local="no">dsss_codes.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1a95127d78702a6e89792fb08902068048" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; int &gt;</type>
+        <definition>const std::vector&lt;int&gt; gr::lpwan::dsss_codes::intlvr_seq256</definition>
+        <argsstring></argsstring>
+        <name>intlvr_seq256</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="36" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1ada5e5eb457582c28368448cbed1df134" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; int &gt;</type>
+        <definition>const std::vector&lt;int&gt; gr::lpwan::dsss_codes::intlvr_seq384</definition>
+        <argsstring></argsstring>
+        <name>intlvr_seq384</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="37" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1a5c4d3d214b7c0fadc00513494312ee78" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; int &gt;</type>
+        <definition>const std::vector&lt;int&gt; gr::lpwan::dsss_codes::intlvr_seq512</definition>
+        <argsstring></argsstring>
+        <name>intlvr_seq512</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="38" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1a49bb7a0c056a663cd52f1ee88d031950" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; float &gt;</type>
+        <definition>const std::vector&lt;float&gt; gr::lpwan::dsss_codes::preamble16</definition>
+        <argsstring></argsstring>
+        <name>preamble16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="40" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1add552e21da7677d72856edc89c34005b" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; float &gt;</type>
+        <definition>const std::vector&lt;float&gt; gr::lpwan::dsss_codes::preamble32</definition>
+        <argsstring></argsstring>
+        <name>preamble32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="41" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1a7205a330d2ac4cdaa44dcb3fe3220e55" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; float &gt;</type>
+        <definition>const std::vector&lt;float&gt; gr::lpwan::dsss_codes::sfd16</definition>
+        <argsstring></argsstring>
+        <name>sfd16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="43" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__codes_1aa09b2bdf4a406a9fd6fc75eac2825528" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; float &gt;</type>
+        <definition>const std::vector&lt;float&gt; gr::lpwan::dsss_codes::sfd32</definition>
+        <argsstring></argsstring>
+        <name>sfd32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="44" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1a2bc33ede53aeb10492df0e6f1325a2f3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>static std::vector&lt;unsigned char&gt; gr::lpwan::dsss_codes::generate_gold_code_uc</definition>
+        <argsstring>(int seed, int length=20000000)</argsstring>
+        <name>generate_gold_code_uc</name>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+          <defval>20000000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1ab03a99e881a9059fa193f777d6557ddf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt;float&gt; gr::lpwan::dsss_codes::generate_gold_code_f</definition>
+        <argsstring>(int seed, int length=20000000)</argsstring>
+        <name>generate_gold_code_f</name>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+          <defval>20000000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1a9c8fa5ac9e4ef710267b8412c293d044" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>static std::vector&lt;unsigned char&gt; gr::lpwan::dsss_codes::generate_ovsf_code_uc</definition>
+        <argsstring>(int code_index, int log_spread_faktor)</argsstring>
+        <name>generate_ovsf_code_uc</name>
+        <param>
+          <type>int</type>
+          <declname>code_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_spread_faktor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1ac4f865d466012e57a8b9cb0fa59a9da5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt;float&gt; gr::lpwan::dsss_codes::generate_ovsf_code_f</definition>
+        <argsstring>(int code_index, int log_spread_faktor)</argsstring>
+        <name>generate_ovsf_code_f</name>
+        <param>
+          <type>int</type>
+          <declname>code_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_spread_faktor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1a9337e76b6069bdc67638dacb6e7416fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>static std::vector&lt;unsigned char&gt; gr::lpwan::dsss_codes::generate_combined_code_uc</definition>
+        <argsstring>(int seed, int code_index, int log_spread_faktor, int length=20000000)</argsstring>
+        <name>generate_combined_code_uc</name>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_spread_faktor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+          <defval>20000000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1a6bd26f852718ffed542dfe1dfb17d5d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt;float&gt; gr::lpwan::dsss_codes::generate_combined_code_f</definition>
+        <argsstring>(int seed, int code_index, int log_spread_faktor, int length=20000000)</argsstring>
+        <name>generate_combined_code_f</name>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>log_spread_faktor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+          <defval>20000000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1aba4794d1d202457c99b0b2ee1fd5fb75" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>static std::vector&lt;unsigned char&gt; gr::lpwan::dsss_codes::invert_code_uc</definition>
+        <argsstring>(const std::vector&lt; unsigned char &gt; &amp;code)</argsstring>
+        <name>invert_code_uc</name>
+        <param>
+          <type>const std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1a24d69718ae11ed166fa6b14f149ec2a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>static std::vector&lt;float&gt; gr::lpwan::dsss_codes::byte_to_float_vector</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; bytevec)</argsstring>
+        <name>byte_to_float_vector</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt;</type>
+          <declname>bytevec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1a892d47561ef9c4569d20d7ba60803756" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_codes::dsss_codes</definition>
+        <argsstring>()</argsstring>
+        <name>dsss_codes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__codes_1af2231066afcecc82f54605de956261d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_codes::~dsss_codes</definition>
+        <argsstring>()</argsstring>
+        <name>~dsss_codes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="60" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>generates the codes needed in PHY </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="15">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="14">
+        <label>gr::lpwan::dsss_codes</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__codes"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>preamble32</edgelabel>
+          <edgelabel>preamble16</edgelabel>
+          <edgelabel>sfd32</edgelabel>
+          <edgelabel>sfd16</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>intlvr_seq512</edgelabel>
+          <edgelabel>intlvr_seq384</edgelabel>
+          <edgelabel>intlvr_seq256</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" line="34" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h" bodystart="34" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a24d69718ae11ed166fa6b14f149ec2a8" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>byte_to_float_vector</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a892d47561ef9c4569d20d7ba60803756" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>dsss_codes</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a6bd26f852718ffed542dfe1dfb17d5d8" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>generate_combined_code_f</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a9337e76b6069bdc67638dacb6e7416fd" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>generate_combined_code_uc</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1ab03a99e881a9059fa193f777d6557ddf" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>generate_gold_code_f</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a2bc33ede53aeb10492df0e6f1325a2f3" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>generate_gold_code_uc</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1ac4f865d466012e57a8b9cb0fa59a9da5" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>generate_ovsf_code_f</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a9c8fa5ac9e4ef710267b8412c293d044" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>generate_ovsf_code_uc</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a95127d78702a6e89792fb08902068048" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>intlvr_seq256</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1ada5e5eb457582c28368448cbed1df134" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>intlvr_seq384</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a5c4d3d214b7c0fadc00513494312ee78" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>intlvr_seq512</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1aba4794d1d202457c99b0b2ee1fd5fb75" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>invert_code_uc</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a49bb7a0c056a663cd52f1ee88d031950" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>preamble16</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1add552e21da7677d72856edc89c34005b" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>preamble32</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1a7205a330d2ac4cdaa44dcb3fe3220e55" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>sfd16</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1aa09b2bdf4a406a9fd6fc75eac2825528" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>sfd32</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__codes_1af2231066afcecc82f54605de956261d0" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_codes</scope><name>~dsss_codes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

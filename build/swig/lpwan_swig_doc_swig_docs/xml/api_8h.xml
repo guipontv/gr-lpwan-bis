@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="conj__multiply__delay__ccc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/conj_multiply_delay_ccc.h</includedby>
+    <includedby refid="dsss__codes_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h</includedby>
+    <includedby refid="dsss__deinterleaver__ff_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_deinterleaver_ff.h</includedby>
+    <includedby refid="dsss__despread__cc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h</includedby>
+    <includedby refid="dsss__despread__simple__cc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_simple_cc.h</includedby>
+    <includedby refid="dsss__diff__coding__bb_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_diff_coding_bb.h</includedby>
+    <includedby refid="dsss__diff__decoding__ff_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_diff_decoding_ff.h</includedby>
+    <includedby refid="dsss__filter__crc__packets_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_filter_crc_packets.h</includedby>
+    <includedby refid="dsss__fragmentation_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h</includedby>
+    <includedby refid="dsss__interleaver__bb_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h</includedby>
+    <includedby refid="dsss__normalize__ff_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h</includedby>
+    <includedby refid="dsss__preamble__demod__cc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h</includedby>
+    <includedby refid="dsss__preamble__detector__cc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h</includedby>
+    <includedby refid="dsss__snr__estimator_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_snr_estimator.h</includedby>
+    <includedby refid="dsss__spreading__bb_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_spreading_bb.h</includedby>
+    <includedby refid="fsk__lecim__corr__est__cc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_corr_est_cc.h</includedby>
+    <includedby refid="fsk__lecim__deinterleaver_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_deinterleaver.h</includedby>
+    <includedby refid="fsk__lecim__interleaver_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h</includedby>
+    <includedby refid="fsk__lecim__normalize__fcc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_normalize_fcc.h</includedby>
+    <includedby refid="fsk__lecim__phr__parser_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_phr_parser.h</includedby>
+    <includedby refid="fsk__lecim__phr__pdu__demux_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_phr_pdu_demux.h</includedby>
+    <includedby refid="fsk__lecim__synchronizer__cc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_synchronizer_cc.h</includedby>
+    <includedby refid="mac__crc_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h</includedby>
+    <includedby refid="mac__field_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h</includedby>
+    <includedby refid="mac__field__frag__header_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_header.h</includedby>
+    <includedby refid="mac__field__frame__ctrl_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h</includedby>
+    <includedby refid="mac__field__frag__status_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_status.h</includedby>
+    <includedby refid="mac__field__fragment_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_fragment.h</includedby>
+    <includedby refid="mac__field__frak_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frak.h</includedby>
+    <includedby refid="mac__format_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h</includedby>
+    <includedby refid="mac__field__frame_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h</includedby>
+    <includedby refid="mac__field__header__ie_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h</includedby>
+    <includedby refid="mac__field__ie__fscd_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h</includedby>
+    <includedby refid="sync_8h" local="no">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/sync.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="0">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="16">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_snr_estimator.h</label>
+        <link refid="dsss__snr__estimator_8h"/>
+      </node>
+      <node id="23">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_phr_pdu_demux.h</label>
+        <link refid="fsk__lecim__phr__pdu__demux_8h"/>
+      </node>
+      <node id="34">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_header_ie.h</label>
+        <link refid="mac__field__header__ie_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_demod_cc.h</label>
+        <link refid="dsss__preamble__demod__cc_8h"/>
+      </node>
+      <node id="7">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_simple_cc.h</label>
+        <link refid="dsss__despread__simple__cc_8h"/>
+      </node>
+      <node id="3">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/conj_multiply_delay_ccc.h</label>
+        <link refid="conj__multiply__delay__ccc_8h"/>
+      </node>
+      <node id="28">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_synchronizer_cc.h</label>
+        <link refid="fsk__lecim__synchronizer__cc_8h"/>
+      </node>
+      <node id="30">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h</label>
+        <link refid="dsss__interleaver__bb_8h"/>
+      </node>
+      <node id="22">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_phr_parser.h</label>
+        <link refid="fsk__lecim__phr__parser_8h"/>
+      </node>
+      <node id="21">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_normalize_fcc.h</label>
+        <link refid="fsk__lecim__normalize__fcc_8h"/>
+      </node>
+      <node id="13">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h</label>
+        <link refid="dsss__normalize__ff_8h"/>
+      </node>
+      <node id="31">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_header.h</label>
+        <link refid="mac__field__frag__header_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_diff_coding_bb.h</label>
+        <link refid="dsss__diff__coding__bb_8h"/>
+      </node>
+      <node id="15">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h</label>
+        <link refid="dsss__preamble__detector__cc_8h"/>
+      </node>
+      <node id="36">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/sync.h</label>
+        <link refid="sync_8h"/>
+      </node>
+      <node id="27">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frak.h</label>
+        <link refid="mac__field__frak_8h"/>
+      </node>
+      <node id="11">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h</label>
+        <link refid="dsss__fragmentation_8h"/>
+      </node>
+      <node id="10">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_filter_crc_packets.h</label>
+        <link refid="dsss__filter__crc__packets_8h"/>
+      </node>
+      <node id="6">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h</label>
+        <link refid="dsss__despread__cc_8h"/>
+      </node>
+      <node id="20">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_interleaver.h</label>
+        <link refid="fsk__lecim__interleaver_8h"/>
+      </node>
+      <node id="26">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_fragment.h</label>
+        <link refid="mac__field__fragment_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_deinterleaver_ff.h</label>
+        <link refid="dsss__deinterleaver__ff_8h"/>
+      </node>
+      <node id="18">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_corr_est_cc.h</label>
+        <link refid="fsk__lecim__corr__est__cc_8h"/>
+      </node>
+      <node id="17">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_spreading_bb.h</label>
+        <link refid="dsss__spreading__bb_8h"/>
+      </node>
+      <node id="25">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h</label>
+        <link refid="mac__crc_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h</label>
+        <link refid="mac__format_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_status.h</label>
+        <link refid="mac__field__frag__status_8h"/>
+      </node>
+      <node id="19">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/fsk_lecim_deinterleaver.h</label>
+        <link refid="fsk__lecim__deinterleaver_8h"/>
+      </node>
+      <node id="9">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_diff_decoding_ff.h</label>
+        <link refid="dsss__diff__decoding__ff_8h"/>
+      </node>
+      <node id="4">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_codes.h</label>
+        <link refid="dsss__codes_8h"/>
+      </node>
+      <node id="29">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a810069f2fba897404742c83af3e80baf" prot="public" static="no">
+        <name>lpwan_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/api.h" line="25" column="12" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/api.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>2013<sp/>Bastian<sp/>Bloessl<sp/>&lt;bloessl@ccs-labs.org&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/><sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_LPWAN_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_LPWAN_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gnuradio/attributes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>gnuradio_lpwan_EXPORTS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>lpwan_API<sp/>__GR_ATTR_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="api_8h_1a810069f2fba897404742c83af3e80baf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>lpwan_API<sp/>__GR_ATTR_IMPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LPWAN_API_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/api.h"/>
+  </compounddef>
+</doxygen>

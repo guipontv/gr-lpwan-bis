@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__fragmentation__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_fragmentation_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1dsss__fragmentation" prot="public" virt="non-virtual">gr::lpwan::dsss_fragmentation</basecompoundref>
+    <includes refid="dsss__fragmentation__impl_8h" local="no">dsss_fragmentation_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a6adf967d4313a0b306033d5275f87219" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_psdu_size</definition>
+        <argsstring></argsstring>
+        <name>d_psdu_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="73" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad66b108f7c4b53d693ecb9aaa1abf16f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_frak_policy_tx</definition>
+        <argsstring></argsstring>
+        <name>d_frak_policy_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="74" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a3627609c976831658421de560fbd0229" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_fics_size_tx</definition>
+        <argsstring></argsstring>
+        <name>d_fics_size_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="75" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad2343ea14e0cd7b5db29547fba633833" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_frame_max_retry</definition>
+        <argsstring></argsstring>
+        <name>d_frame_max_retry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="76" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a52d0a6c3f516ba57ac9bb3820970586c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_frag_data_size</definition>
+        <argsstring></argsstring>
+        <name>d_frag_data_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="77" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a53ba4b3bf954a6731c034b118ecb09e9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_dest_addr_short</definition>
+        <argsstring></argsstring>
+        <name>d_dest_addr_short</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="78" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a9747f9b4658843adbcb7ae87e89fe9a5" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::lpwan::dsss_fragmentation_impl::d_pad_value</definition>
+        <argsstring></argsstring>
+        <name>d_pad_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="79" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a1c47c24b8cd679dba87d92790643288a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::d_verbose_print</definition>
+        <argsstring></argsstring>
+        <name>d_verbose_print</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="81" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a3fdcd9a8d003f4eebdbbd9b6012144b2" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::lpwan::dsss_fragmentation_impl::d_device_addr_short</definition>
+        <argsstring></argsstring>
+        <name>d_device_addr_short</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="85" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a5ade5c008207e7cc41b4672fc83bbefb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::d_is_coordinator</definition>
+        <argsstring></argsstring>
+        <name>d_is_coordinator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="86" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1af30f6a28c6c807861aa8f47c9ce78cb1" prot="private" static="no" mutable="no">
+        <type>std::chrono::duration&lt; long, std::milli &gt;</type>
+        <definition>std::chrono::duration&lt;long, std::milli&gt; gr::lpwan::dsss_fragmentation_impl::d_fscd_timeout_duration</definition>
+        <argsstring></argsstring>
+        <name>d_fscd_timeout_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="89" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a7a7f15c32d4736745910543453f851d3" prot="private" static="no" mutable="no">
+        <type>std::chrono::duration&lt; long, std::milli &gt;</type>
+        <definition>std::chrono::duration&lt;long, std::milli&gt; gr::lpwan::dsss_fragmentation_impl::d_frak_tx_timeout_duration</definition>
+        <argsstring></argsstring>
+        <name>d_frak_tx_timeout_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="90" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a9a20d16d6c03126045fe58a595bb96aa" prot="private" static="no" mutable="no">
+        <type>std::chrono::duration&lt; long, std::milli &gt;</type>
+        <definition>std::chrono::duration&lt;long, std::milli&gt; gr::lpwan::dsss_fragmentation_impl::d_frak_rx_timeout_duration</definition>
+        <argsstring></argsstring>
+        <name>d_frak_rx_timeout_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="91" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a8276fa3390727c453b397a5f9c84dc8e" prot="private" static="no" mutable="no">
+        <type>std::chrono::duration&lt; long, std::milli &gt;</type>
+        <definition>std::chrono::duration&lt;long, std::milli&gt; gr::lpwan::dsss_fragmentation_impl::d_psdu_duration</definition>
+        <argsstring></argsstring>
+        <name>d_psdu_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="92" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a02637c9c89abf9df4db8f354ab97caa3" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; <ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> &gt;</type>
+        <definition>std::deque&lt;s_mpdu_frag_packet&gt; gr::lpwan::dsss_fragmentation_impl::d_packets_tx</definition>
+        <argsstring></argsstring>
+        <name>d_packets_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="95" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1abfaa1897fd76be5e46bf0b0a7a05b63f" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; <ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> &gt;</type>
+        <definition>std::deque&lt;s_mpdu_frag_packet&gt; gr::lpwan::dsss_fragmentation_impl::d_packets_rx</definition>
+        <argsstring></argsstring>
+        <name>d_packets_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="96" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a790ad589441b622690361f784a0960c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_fragmentation_impl::d_period_ms</definition>
+        <argsstring></argsstring>
+        <name>d_period_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="124" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a4ade9b324a8df95fd5bf23d9db410270" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; gr::thread::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;gr::thread::thread&gt; gr::lpwan::dsss_fragmentation_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="125" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1add5018762445a7df7903bcba6521d61f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::d_finished</definition>
+        <argsstring></argsstring>
+        <name>d_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="126" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad5e18643dcc41cb1838e80b7d486e0c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::msg_from_mac</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_from_mac</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1aa15e47ac15809a9d7ff8d34ecc71603e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::msg_from_phy</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_from_phy</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a57b3cd55c69a9fc6d622a242b06de1a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::frag_processing</definition>
+        <argsstring>()</argsstring>
+        <name>frag_processing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ac055e0f8a89f83b60ddba5c33419f2ba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::recv_frag_or_frak</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;f)</argsstring>
+        <name>recv_frag_or_frak</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad3fce918b8b475aa4ee195feb2cb892d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::recv_ack</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;ack)</argsstring>
+        <name>recv_ack</name>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>ack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a0cce853f0714c0a039cec742a1f865d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::reassembly_frags_if_complete</definition>
+        <argsstring>(s_mpdu_frag_packet *p)</argsstring>
+        <name>reassembly_frags_if_complete</name>
+        <param>
+          <type><ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a42560c1ad4d8adbf9ef67139ae6af5c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::search_data_packet_for_fscd</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;data_frame)</argsstring>
+        <name>search_data_packet_for_fscd</name>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>data_frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a00cbf429caf0da1870fc6a820e516a29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::send_fscd_ack</definition>
+        <argsstring>(const s_mpdu_frag_packet *p)</argsstring>
+        <name>send_fscd_ack</name>
+        <param>
+          <type>const <ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a20b56b1b21c387b98026e48982f02700" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::send_fscd_packet</definition>
+        <argsstring>(const s_mpdu_frag_packet *p)</argsstring>
+        <name>send_fscd_packet</name>
+        <param>
+          <type>const <ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1aad58d59f2e6ab3567df3ea3a47e81d38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::send_frak</definition>
+        <argsstring>(s_mpdu_frag_packet *p)</argsstring>
+        <name>send_frak</name>
+        <param>
+          <type><ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1aa514139b1ea8654952f09fe4aebbc572" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::send_frag</definition>
+        <argsstring>(s_mpdu_frag_packet *p)</argsstring>
+        <name>send_frag</name>
+        <param>
+          <type><ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ae7f32aa4c07b9a76a4efbe67195850f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ae7fc03efe34791e380122db41ee567c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a04508733756f0c1215d3fbf4661fdc54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a3b484bdf1679b65fabf252c5290992ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::dsss_fragmentation_impl::erase_packet</definition>
+        <argsstring>(std::deque&lt; s_mpdu_frag_packet &gt; *pl, int nr)</argsstring>
+        <name>erase_packet</name>
+        <param>
+          <type>std::deque&lt; <ref refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" kindref="compound">s_mpdu_frag_packet</ref> &gt; *</type>
+          <declname>pl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a59d8b58bef785f4dbb364a5ee5b012a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_fragmentation_impl::is_tid_in_use</definition>
+        <argsstring>(int tid)</argsstring>
+        <name>is_tid_in_use</name>
+        <param>
+          <type>int</type>
+          <declname>tid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="136" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ac5fd9c3da64baf013610a89e362c36b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_fragmentation_impl::dsss_fragmentation_impl</definition>
+        <argsstring>(int psdu_size, int frak_policy_tx, int frak_tx_timeout_ms, int frak_rx_timeout_ms, int frame_max_retry, int fics_size_tx, int device_addr_short, bool is_coordinator, int psdu_tx_dur, int dest_addr_short, bool verbose)</argsstring>
+        <name>dsss_fragmentation_impl</name>
+        <param>
+          <type>int</type>
+          <declname>psdu_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frak_policy_tx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frak_tx_timeout_ms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frak_rx_timeout_ms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_max_retry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fics_size_tx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>device_addr_short</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_coordinator</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>psdu_tx_dur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dest_addr_short</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a6188c1317c09346f113fde35e111eab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_fragmentation_impl::~dsss_fragmentation_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dsss_fragmentation_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="143" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="90">
+        <label>block</label>
+      </node>
+      <node id="89">
+        <label>gr::lpwan::dsss_fragmentation</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__fragmentation"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>gr::lpwan::dsss_fragmentation_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="93">
+        <label>block</label>
+      </node>
+      <node id="92">
+        <label>gr::lpwan::dsss_fragmentation</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__fragmentation"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>gr::lpwan::dsss_fragmentation_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" line="70" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h" bodystart="70" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a53ba4b3bf954a6731c034b118ecb09e9" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_dest_addr_short</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a3fdcd9a8d003f4eebdbbd9b6012144b2" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_device_addr_short</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a3627609c976831658421de560fbd0229" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_fics_size_tx</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1add5018762445a7df7903bcba6521d61f" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_finished</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a52d0a6c3f516ba57ac9bb3820970586c" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_frag_data_size</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad66b108f7c4b53d693ecb9aaa1abf16f" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_frak_policy_tx</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a9a20d16d6c03126045fe58a595bb96aa" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_frak_rx_timeout_duration</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a7a7f15c32d4736745910543453f851d3" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_frak_tx_timeout_duration</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad2343ea14e0cd7b5db29547fba633833" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_frame_max_retry</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1af30f6a28c6c807861aa8f47c9ce78cb1" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_fscd_timeout_duration</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a5ade5c008207e7cc41b4672fc83bbefb" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_is_coordinator</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1abfaa1897fd76be5e46bf0b0a7a05b63f" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_packets_rx</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a02637c9c89abf9df4db8f354ab97caa3" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_packets_tx</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a9747f9b4658843adbcb7ae87e89fe9a5" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_pad_value</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a790ad589441b622690361f784a0960c9" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_period_ms</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a8276fa3390727c453b397a5f9c84dc8e" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_psdu_duration</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a6adf967d4313a0b306033d5275f87219" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_psdu_size</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a4ade9b324a8df95fd5bf23d9db410270" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a1c47c24b8cd679dba87d92790643288a" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>d_verbose_print</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ac5fd9c3da64baf013610a89e362c36b3" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>dsss_fragmentation_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a3b484bdf1679b65fabf252c5290992ad" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>erase_packet</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a57b3cd55c69a9fc6d622a242b06de1a4" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>frag_processing</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a59d8b58bef785f4dbb364a5ee5b012a8" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>is_tid_in_use</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation_1aa9ca5035a27315e383d45bb6a635e744" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad5e18643dcc41cb1838e80b7d486e0c7" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>msg_from_mac</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1aa15e47ac15809a9d7ff8d34ecc71603e" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>msg_from_phy</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a0cce853f0714c0a039cec742a1f865d8" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>reassembly_frags_if_complete</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ad3fce918b8b475aa4ee195feb2cb892d" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>recv_ack</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ac055e0f8a89f83b60ddba5c33419f2ba" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>recv_frag_or_frak</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a04508733756f0c1215d3fbf4661fdc54" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>run</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a42560c1ad4d8adbf9ef67139ae6af5c5" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>search_data_packet_for_fscd</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1aa514139b1ea8654952f09fe4aebbc572" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>send_frag</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1aad58d59f2e6ab3567df3ea3a47e81d38" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>send_frak</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a00cbf429caf0da1870fc6a820e516a29" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>send_fscd_ack</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a20b56b1b21c387b98026e48982f02700" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>send_fscd_packet</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation_1a889e0c3a0d9f084760ad8ac9ea162d51" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ae7f32aa4c07b9a76a4efbe67195850f5" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1ae7fc03efe34791e380122db41ee567c7" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl_1a6188c1317c09346f113fde35e111eab6" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation_impl</scope><name>~dsss_fragmentation_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

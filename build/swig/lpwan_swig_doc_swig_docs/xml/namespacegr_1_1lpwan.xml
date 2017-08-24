@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1lpwan" kind="namespace" language="C++">
+    <compoundname>gr::lpwan</compoundname>
+    <innerclass refid="structgr_1_1lpwan_1_1address__info" prot="public">gr::lpwan::address_info</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1conj__multiply__delay__ccc" prot="public">gr::lpwan::conj_multiply_delay_ccc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__codes" prot="public">gr::lpwan::dsss_codes</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__deinterleaver__ff" prot="public">gr::lpwan::dsss_deinterleaver_ff</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__despread__cc" prot="public">gr::lpwan::dsss_despread_cc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__despread__simple__cc" prot="public">gr::lpwan::dsss_despread_simple_cc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__diff__coding__bb" prot="public">gr::lpwan::dsss_diff_coding_bb</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff" prot="public">gr::lpwan::dsss_diff_decoding_ff</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__filter__crc__packets" prot="public">gr::lpwan::dsss_filter_crc_packets</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__fragmentation" prot="public">gr::lpwan::dsss_fragmentation</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__interleaver__bb" prot="public">gr::lpwan::dsss_interleaver_bb</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__normalize__ff" prot="public">gr::lpwan::dsss_normalize_ff</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__preamble__demod__cc" prot="public">gr::lpwan::dsss_preamble_demod_cc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc" prot="public">gr::lpwan::dsss_preamble_detector_cc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__snr__estimator" prot="public">gr::lpwan::dsss_snr_estimator</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__spreading__bb" prot="public">gr::lpwan::dsss_spreading_bb</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__corr__est__cc" prot="public">gr::lpwan::fsk_lecim_corr_est_cc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver" prot="public">gr::lpwan::fsk_lecim_deinterleaver</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__interleaver" prot="public">gr::lpwan::fsk_lecim_interleaver</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__normalize__fcc" prot="public">gr::lpwan::fsk_lecim_normalize_fcc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__phr__parser" prot="public">gr::lpwan::fsk_lecim_phr_parser</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__phr__pdu__demux" prot="public">gr::lpwan::fsk_lecim_phr_pdu_demux</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1fsk__lecim__synchronizer__cc" prot="public">gr::lpwan::fsk_lecim_synchronizer_cc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__crc" prot="public">gr::lpwan::mac_crc</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field" prot="public">gr::lpwan::mac_field</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frag__header" prot="public">gr::lpwan::mac_field_frag_header</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frag__status" prot="public">gr::lpwan::mac_field_frag_status</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__fragment" prot="public">gr::lpwan::mac_field_fragment</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frak" prot="public">gr::lpwan::mac_field_frak</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frame" prot="public">gr::lpwan::mac_field_frame</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" prot="public">gr::lpwan::mac_field_frame_ctrl</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__header__ie" prot="public">gr::lpwan::mac_field_header_ie</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" prot="public">gr::lpwan::mac_field_ie_fscd</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__format" prot="public">gr::lpwan::mac_format</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1sync" prot="public">gr::lpwan::sync</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/conj_multiply_delay_ccc.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

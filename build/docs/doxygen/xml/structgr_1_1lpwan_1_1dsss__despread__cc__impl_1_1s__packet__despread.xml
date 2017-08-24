@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread" kind="struct" language="C++" prot="private">
+    <compoundname>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6c70dd3471d11a7a7149ec654eb105a3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::lpwan::dsss_despread_cc_impl::s_packet_despread::despreaded</definition>
+        <argsstring></argsstring>
+        <name>despreaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="60" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6d01406030fdc63fc0ee8622c633893a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_despread_cc_impl::s_packet_despread::bitpos</definition>
+        <argsstring></argsstring>
+        <name>bitpos</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="61" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1af4767d83739fbb1507cada4fd9e08027" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_despread_cc_impl::s_packet_despread::chippos</definition>
+        <argsstring></argsstring>
+        <name>chippos</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="62" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ab582e81a2119bc56a7e58dd4e6a6a59c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_despread_cc_impl::s_packet_despread::oqpsk_q_pos</definition>
+        <argsstring></argsstring>
+        <name>oqpsk_q_pos</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="63" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a3ae4f65664e924ada9ac7a9bec3e2d2f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_despread_cc_impl::s_packet_despread::carry_samples</definition>
+        <argsstring></argsstring>
+        <name>carry_samples</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="64" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1aa2cf27559dceebf1b6fd6a01e870b2d4" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::lpwan::dsss_despread_cc_impl::s_packet_despread::sample_start_in_stream</definition>
+        <argsstring></argsstring>
+        <name>sample_start_in_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="65" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ab2769298fde34dc4b3af8bdec95f51f1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_despread_cc_impl::s_packet_despread::finished</definition>
+        <argsstring></argsstring>
+        <name>finished</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="66" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a45b197d5bf486a4c3f79e27b6b81b285" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_despread_cc_impl::s_packet_despread::started</definition>
+        <argsstring></argsstring>
+        <name>started</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="67" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a1aa5a73853b6bce10e95818e62c07718" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_despread_cc_impl::s_packet_despread::reset_per_symbol</definition>
+        <argsstring></argsstring>
+        <name>reset_per_symbol</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="69" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1af48c4fdacd100dc662e19dbc2a5021b7" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::lpwan::dsss_despread_cc_impl::s_packet_despread::early</definition>
+        <argsstring></argsstring>
+        <name>early</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="71" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6afbe55db18d893ad7ee5f19455118b2" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::lpwan::dsss_despread_cc_impl::s_packet_despread::late</definition>
+        <argsstring></argsstring>
+        <name>late</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="71" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a190c9dbb2f4e1e391d82c4b8d4f7371a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::lpwan::dsss_despread_cc_impl::s_packet_despread::dll_error</definition>
+        <argsstring></argsstring>
+        <name>dll_error</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="72" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1acd996c5a52d62ca868f7b5b0ad9271a8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::lpwan::dsss_despread_cc_impl::s_packet_despread::dll_prompt</definition>
+        <argsstring></argsstring>
+        <name>dll_prompt</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="73" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6d7b407d15e4c891451b95164e7db00e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::lpwan::dsss_despread_cc_impl::s_packet_despread::freq</definition>
+        <argsstring></argsstring>
+        <name>freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="77" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a57d23eee9d43379835b292822540c678" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::lpwan::dsss_despread_cc_impl::s_packet_despread::phase</definition>
+        <argsstring></argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="78" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a4215b51a3d7eb22773c04f90fba3e776" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::lpwan::dsss_despread_cc_impl::s_packet_despread::phase_inc</definition>
+        <argsstring></argsstring>
+        <name>phase_inc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="79" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ad05f191d5d18de17e23a7f7fe1bfba75" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::lpwan::dsss_despread_cc_impl::s_packet_despread::dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="81" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ac16b3d6bb089dc33173dc609f1fe7340" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt; *</type>
+        <definition>std::vector&lt;float&gt;* gr::lpwan::dsss_despread_cc_impl::s_packet_despread::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="83" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="286">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="287">
+        <label>std::vector&lt; gr_complex &gt;</label>
+      </node>
+      <node id="285">
+        <label>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</label>
+        <childnode refid="286" relation="usage">
+          <edgelabel>code</edgelabel>
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>despreaded</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="59" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="59" bodyend="84"/>
+    <listofallmembers>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6d01406030fdc63fc0ee8622c633893a" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>bitpos</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a3ae4f65664e924ada9ac7a9bec3e2d2f" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>carry_samples</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1af4767d83739fbb1507cada4fd9e08027" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>chippos</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ac16b3d6bb089dc33173dc609f1fe7340" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>code</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6c70dd3471d11a7a7149ec654eb105a3" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>despreaded</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ad05f191d5d18de17e23a7f7fe1bfba75" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>dict</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a190c9dbb2f4e1e391d82c4b8d4f7371a" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>dll_error</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1acd996c5a52d62ca868f7b5b0ad9271a8" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>dll_prompt</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1af48c4fdacd100dc662e19dbc2a5021b7" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>early</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ab2769298fde34dc4b3af8bdec95f51f1" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>finished</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6d7b407d15e4c891451b95164e7db00e" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>freq</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a6afbe55db18d893ad7ee5f19455118b2" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>late</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1ab582e81a2119bc56a7e58dd4e6a6a59c" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>oqpsk_q_pos</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a57d23eee9d43379835b292822540c678" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>phase</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a4215b51a3d7eb22773c04f90fba3e776" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>phase_inc</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a1aa5a73853b6bce10e95818e62c07718" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>reset_per_symbol</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1aa2cf27559dceebf1b6fd6a01e870b2d4" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>sample_start_in_stream</name></member>
+      <member refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread_1a45b197d5bf486a4c3f79e27b6b81b285" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc_impl::s_packet_despread</scope><name>started</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

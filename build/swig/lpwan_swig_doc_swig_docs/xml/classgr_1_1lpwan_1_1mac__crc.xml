@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1mac__crc" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::mac_crc</compoundname>
+    <includes refid="mac__crc_8h" local="no">mac_crc.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__crc_1a2e1ff644d8137e4edbe59c7552757f70" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::mac_crc::d_crclen</definition>
+        <argsstring></argsstring>
+        <name>d_crclen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="49" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__crc_1a1937c63c3ccc0d34eefe880aa72a05ee" prot="private" static="no" mutable="no">
+        <type>boost::crc_optimal&lt; 16, 0x1021, 0, 0, false, false &gt;</type>
+        <definition>boost::crc_optimal&lt;16, 0x1021, 0, 0, false, false&gt; gr::lpwan::mac_crc::d_crc16</definition>
+        <argsstring></argsstring>
+        <name>d_crc16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="51" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__crc_1aeca4f9e8ad7f550f19f7f535d43354b7" prot="private" static="no" mutable="no">
+        <type>boost::crc_optimal&lt; 32, 0x04C11DB7, 0xFFFFFFFF, 0xFFFFFFFF, false, false &gt;</type>
+        <definition>boost::crc_optimal&lt;32, 0x04C11DB7, 0xFFFFFFFF, 0xFFFFFFFF, false, false&gt; gr::lpwan::mac_crc::d_crc32</definition>
+        <argsstring></argsstring>
+        <name>d_crc32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="52" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__crc_1a39f4741a7398e044e5191c62d0f5309c" prot="private" static="no" mutable="no">
+        <type>const unsigned long</type>
+        <definition>const unsigned long gr::lpwan::mac_crc::crc32_remainder</definition>
+        <argsstring></argsstring>
+        <name>crc32_remainder</name>
+        <initializer>= 955982468</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="54" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__crc_1a106108b1860ec3fe5b324636c5729f89" prot="private" static="no" mutable="no">
+        <type>const unsigned long</type>
+        <definition>const unsigned long gr::lpwan::mac_crc::crc16_remainder</definition>
+        <argsstring></argsstring>
+        <name>crc16_remainder</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="55" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1ae62a522d18da42dd14daa6a801dd3ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_crc::append_crc</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;data)</argsstring>
+        <name>append_crc</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1ad477f749a179f81937b3d5eed10c01bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::mac_crc::check_crc_and_remove</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;data)</argsstring>
+        <name>check_crc_and_remove</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1a6ebadb19eba7fc757ca4e04913975fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::lpwan::mac_crc::calc_crc</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;data)</argsstring>
+        <name>calc_crc</name>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1a04d3a188f876520a57324ec3c45e2be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::mac_crc::check_crc</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;data)</argsstring>
+        <name>check_crc</name>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1a16af1f753573bbee4260dd17a5976e3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::mac_crc::get_crclen</definition>
+        <argsstring>()</argsstring>
+        <name>get_crclen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="44" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1a2b580a4c65b2c8d06c69e47b259e1bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::mac_crc::mac_crc</definition>
+        <argsstring>(int crclen)</argsstring>
+        <name>mac_crc</name>
+        <param>
+          <type>int</type>
+          <declname>crclen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__crc_1aec05206f4e5789dd4f9aa7ff8115a888" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::mac_crc::~mac_crc</definition>
+        <argsstring>()</argsstring>
+        <name>~mac_crc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>calculation of CRC </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" line="36" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_crc.h" bodystart="35" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1ae62a522d18da42dd14daa6a801dd3ad2" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>append_crc</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a6ebadb19eba7fc757ca4e04913975fb3" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>calc_crc</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a04d3a188f876520a57324ec3c45e2be4" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>check_crc</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1ad477f749a179f81937b3d5eed10c01bc" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>check_crc_and_remove</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a106108b1860ec3fe5b324636c5729f89" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>crc16_remainder</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a39f4741a7398e044e5191c62d0f5309c" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>crc32_remainder</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a1937c63c3ccc0d34eefe880aa72a05ee" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>d_crc16</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1aeca4f9e8ad7f550f19f7f535d43354b7" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>d_crc32</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a2e1ff644d8137e4edbe59c7552757f70" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>d_crclen</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a16af1f753573bbee4260dd17a5976e3b" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>get_crclen</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1a2b580a4c65b2c8d06c69e47b259e1bd2" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>mac_crc</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__crc_1aec05206f4e5789dd4f9aa7ff8115a888" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_crc</scope><name>~mac_crc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

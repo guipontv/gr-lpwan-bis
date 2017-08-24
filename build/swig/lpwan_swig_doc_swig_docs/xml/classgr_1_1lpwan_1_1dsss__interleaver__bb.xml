@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__interleaver__bb" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_interleaver_bb</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <includes refid="dsss__interleaver__bb_8h" local="no">dsss_interleaver_bb.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1dsss__interleaver__bb_1aba0ae466f8d6473b873746ba25460c63" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1dsss__interleaver__bb" kindref="compound">dsss_interleaver_bb</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;dsss_interleaver_bb&gt; gr::lpwan::dsss_interleaver_bb::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h" line="43" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__interleaver__bb_1a1c43edebeaab5812080473f5152ff0b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1dsss__interleaver__bb_1aba0ae466f8d6473b873746ba25460c63" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::dsss_interleaver_bb::make</definition>
+        <argsstring>(std::string len_tag)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1dsss__interleaver__bb" kindref="compound">lpwan::dsss_interleaver_bb</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>len_tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length tag key </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interleaver block for LECIM DSSS Phy. </para>    </briefdescription>
+    <detaileddescription>
+<para>Interleaves the tagged input stream (unpacked bytes). The length has to be 256, 384, or 512. Std. 23.2.4 </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="38">
+        <label>gr::lpwan::dsss_interleaver_bb</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__interleaver__bb"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="40">
+        <label>gr::lpwan::dsss_interleaver_bb</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__interleaver__bb"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h" line="41" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_interleaver_bb.h" bodystart="40" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb_1a1c43edebeaab5812080473f5152ff0b1" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__interleaver__bb_1aba0ae466f8d6473b873746ba25460c63" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_interleaver_bb</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

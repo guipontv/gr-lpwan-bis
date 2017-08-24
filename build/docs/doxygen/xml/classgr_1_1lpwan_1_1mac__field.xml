@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1mac__field" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::lpwan::mac_field</compoundname>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__frag__header" prot="public" virt="non-virtual">gr::lpwan::mac_field_frag_header</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__frag__status" prot="private" virt="non-virtual">gr::lpwan::mac_field_frag_status</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__fragment" prot="public" virt="non-virtual">gr::lpwan::mac_field_fragment</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__frak" prot="public" virt="non-virtual">gr::lpwan::mac_field_frak</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__frame" prot="protected" virt="non-virtual">gr::lpwan::mac_field_frame</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" prot="private" virt="non-virtual">gr::lpwan::mac_field_frame_ctrl</derivedcompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1mac__field__header__ie" prot="private" virt="non-virtual">gr::lpwan::mac_field_header_ie</derivedcompoundref>
+    <includes refid="mac__field_8h" local="no">mac_field.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field_1a23e5b5f141e1e4fec3a5a2e95dbfd579" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>virtual std::vector&lt;uint8_t&gt; gr::lpwan::mac_field::get_data</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_data</name>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frag__header_1a316bd87fbd9e27687d6adb3ac0dc4ee0">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frak_1a1f7361c6183e080eb84cecd01e24f3f7">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__fragment_1a357aaef00a6cd400a5673d9bc58bc6fb">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__header__ie_1a9095bcfe671b964eae0690061d59fb31">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frame_1a89710a262068ed6ace5092b64eed5358">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frag__status_1a39a983cc9a30dde22603fc86f2ed7e29">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a4812f6167a6f4622c8857865d9d32f1e">get_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a5052b322e81d301c95b85e2c9e1bd624">get_data</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field_1ad391fa2f6ddc82ee0a19f302f48d475d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::lpwan::mac_field::set_data</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;v)=0</argsstring>
+        <name>set_data</name>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frag__header_1a8993fbc0e5c500882d82f99bf615f5a4">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frak_1ab3768ef2efab4dda6976bd06af799ba4">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__fragment_1a8d2a46b9e0ee2ede3b4d3c2e6a36d819">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__header__ie_1ab18fd836c5f1bccb63cffe204b89e69b">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frame_1a0825303a69a03819a333bc8212e333dc">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frag__status_1a6ccb7399480a77083295312f4a6f178f">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl_1a3dc4d40c8e65b55ec280bcbb867ff6a7">set_data</reimplementedby>
+        <reimplementedby refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aa76de2682cc9169d987fe6faac2a7a22">set_data</reimplementedby>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field_1ad934772b425f8ce338630868692ada00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field::append_data</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;d)</argsstring>
+        <name>append_data</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>base class for fragmentation bitfields </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="230">
+        <label>gr::lpwan::mac_field_frag_status</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frag__status"/>
+        <childnode refid="228" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>gr::lpwan::mac_field_ie_fscd</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__ie__fscd"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>gr::lpwan::mac_field</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field"/>
+      </node>
+      <node id="232">
+        <label>gr::lpwan::mac_field_frak</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frak"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>gr::lpwan::mac_field_frag_header</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frag__header"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>gr::lpwan::mac_field_fragment</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__fragment"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>gr::lpwan::mac_field_frame_ctrl</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl"/>
+        <childnode refid="228" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>gr::lpwan::mac_field_header_ie</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__header__ie"/>
+        <childnode refid="228" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>gr::lpwan::mac_field_frame</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frame"/>
+        <childnode refid="228" relation="protected-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h" line="35" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field.h" bodystart="34" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1mac__field_1ad934772b425f8ce338630868692ada00" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field</scope><name>append_data</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field_1a23e5b5f141e1e4fec3a5a2e95dbfd579" prot="public" virt="pure-virtual"><scope>gr::lpwan::mac_field</scope><name>get_data</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field_1ad391fa2f6ddc82ee0a19f302f48d475d" prot="public" virt="pure-virtual"><scope>gr::lpwan::mac_field</scope><name>set_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__preamble__detector__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_preamble_detector_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc__impl" prot="public" virt="non-virtual">gr::lpwan::dsss_preamble_detector_cc_impl</derivedcompoundref>
+    <includes refid="dsss__preamble__detector__cc_8h" local="no">dsss_preamble_detector_cc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1dsss__preamble__detector__cc_1abe713ab597a76fdb8f21f40f38c3581c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc" kindref="compound">dsss_preamble_detector_cc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;dsss_preamble_detector_cc&gt; gr::lpwan::dsss_preamble_detector_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h" line="44" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__preamble__detector__cc_1a1ee45b334e03987e3d25be91bb914b22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc_1abe713ab597a76fdb8f21f40f38c3581c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::dsss_preamble_detector_cc::make</definition>
+        <argsstring>(std::vector&lt; float &gt; freqs, int shr_len, int sf, int sps, int chiprate, std::vector&lt; float &gt; filter_taps)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>freqs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shr_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chiprate</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>filter_taps</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc" kindref="compound">lpwan::dsss_preamble_detector_cc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>freqs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector with the frequency hypothesis </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shr_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the shr in bits </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>preamble spreading factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples per symbol </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chiprate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>absolute chiprate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>filter taps of the Matched Filter, needed for SNR estimation </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Detects the preamble. </para>    </briefdescription>
+    <detaileddescription>
+<para>This block is basically a peak detector. It tags the raw rx filtered input data with the detected peak positions (key: &quot;sop&quot;), an estimation for the frequency offset and an estimation of the SNR. It works together with the despreading block. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="128">
+        <label>sync_block</label>
+      </node>
+      <node id="127">
+        <label>gr::lpwan::dsss_preamble_detector_cc</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>gr::lpwan::dsss_preamble_detector_cc_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc__impl"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="131">
+        <label>sync_block</label>
+      </node>
+      <node id="130">
+        <label>gr::lpwan::dsss_preamble_detector_cc</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h" line="42" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_preamble_detector_cc.h" bodystart="41" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc_1a1ee45b334e03987e3d25be91bb914b22" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_preamble_detector_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__preamble__detector__cc_1abe713ab597a76fdb8f21f40f38c3581c" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_preamble_detector_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

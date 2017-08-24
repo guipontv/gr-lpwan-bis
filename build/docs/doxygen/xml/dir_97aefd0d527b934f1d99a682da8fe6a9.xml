@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="conj__multiply__delay__ccc__impl_8h">conj_multiply_delay_ccc_impl.h</innerfile>
+    <innerfile refid="dsss__deinterleaver__ff__impl_8h">dsss_deinterleaver_ff_impl.h</innerfile>
+    <innerfile refid="dsss__despread__cc__impl_8h">dsss_despread_cc_impl.h</innerfile>
+    <innerfile refid="dsss__despread__simple__cc__impl_8h">dsss_despread_simple_cc_impl.h</innerfile>
+    <innerfile refid="dsss__diff__coding__bb__impl_8h">dsss_diff_coding_bb_impl.h</innerfile>
+    <innerfile refid="dsss__diff__decoding__ff__impl_8h">dsss_diff_decoding_ff_impl.h</innerfile>
+    <innerfile refid="dsss__filter__crc__packets__impl_8h">dsss_filter_crc_packets_impl.h</innerfile>
+    <innerfile refid="dsss__fragmentation__impl_8h">dsss_fragmentation_impl.h</innerfile>
+    <innerfile refid="dsss__interleaver__bb__impl_8h">dsss_interleaver_bb_impl.h</innerfile>
+    <innerfile refid="dsss__normalize__ff__impl_8h">dsss_normalize_ff_impl.h</innerfile>
+    <innerfile refid="dsss__preamble__demod__cc__impl_8h">dsss_preamble_demod_cc_impl.h</innerfile>
+    <innerfile refid="dsss__preamble__detector__cc__impl_8h">dsss_preamble_detector_cc_impl.h</innerfile>
+    <innerfile refid="dsss__snr__estimator__impl_8h">dsss_snr_estimator_impl.h</innerfile>
+    <innerfile refid="dsss__spreading__bb__impl_8h">dsss_spreading_bb_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__corr__est__cc__impl_8h">fsk_lecim_corr_est_cc_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__deinterleaver__impl_8h">fsk_lecim_deinterleaver_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__interleaver__impl_8h">fsk_lecim_interleaver_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__normalize__fcc__impl_8h">fsk_lecim_normalize_fcc_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__phr__parser__impl_8h">fsk_lecim_phr_parser_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__phr__pdu__demux__impl_8h">fsk_lecim_phr_pdu_demux_impl.h</innerfile>
+    <innerfile refid="fsk__lecim__time__synchronizer__cc__impl_8h">fsk_lecim_time_synchronizer_cc_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/"/>
+  </compounddef>
+</doxygen>

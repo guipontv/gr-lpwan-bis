@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1mac__field__frame" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::mac_field_frame</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1mac__field" prot="protected" virt="non-virtual">gr::lpwan::mac_field</basecompoundref>
+    <includes refid="mac__field__frame_8h" local="no">mac_field_frame.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1a63519157d319f0dfa56194310d04e0ff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::mac_field_frame::d_pad_to</definition>
+        <argsstring></argsstring>
+        <name>d_pad_to</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="79" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1ad303e23e062ef15952a4fe837952cf2b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::mac_field_frame::d_valid</definition>
+        <argsstring></argsstring>
+        <name>d_valid</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="81" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1a2fa9c46c400a7dbde173711f030567a8" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1lpwan_1_1mac__crc" kindref="compound">mac_crc</ref> *</type>
+        <definition>mac_crc* gr::lpwan::mac_field_frame::d_crc</definition>
+        <argsstring></argsstring>
+        <name>d_crc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="82" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1a1b36a26297c26310f9a835949d5b06bf" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::lpwan::mac_field_frame::d_seq_nr</definition>
+        <argsstring></argsstring>
+        <name>d_seq_nr</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="83" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1a59a1158a54789fec70e2fc338575e251" prot="private" static="no" mutable="no">
+        <type><ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref></type>
+        <definition>address_info gr::lpwan::mac_field_frame::d_ai</definition>
+        <argsstring></argsstring>
+        <name>d_ai</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="84" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1ab4a8cd29e424ae4745eba54c4a967a2d" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref></type>
+        <definition>mac_field_frame_ctrl gr::lpwan::mac_field_frame::d_fr_ctrl</definition>
+        <argsstring></argsstring>
+        <name>d_fr_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="85" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1a84d7c0e40328abf744c33f31af33b48d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classgr_1_1lpwan_1_1mac__field__header__ie" kindref="compound">mac_field_header_ie</ref> * &gt;</type>
+        <definition>std::vector&lt;mac_field_header_ie*&gt; gr::lpwan::mac_field_frame::d_h_ies</definition>
+        <argsstring></argsstring>
+        <name>d_h_ies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="86" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1mac__field__frame_1a6c6f9c4ac3010e5efc382ff4c246b308" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr::lpwan::mac_field_frame::d_payload</definition>
+        <argsstring></argsstring>
+        <name>d_payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="87" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a89710a262068ed6ace5092b64eed5358" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>virtual std::vector&lt;uint8_t&gt; gr::lpwan::mac_field_frame::get_data</definition>
+        <argsstring>()</argsstring>
+        <name>get_data</name>
+        <reimplements refid="classgr_1_1lpwan_1_1mac__field_1a23e5b5f141e1e4fec3a5a2e95dbfd579">get_data</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a0825303a69a03819a333bc8212e333dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::lpwan::mac_field_frame::set_data</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;v)</argsstring>
+        <name>set_data</name>
+        <reimplements refid="classgr_1_1lpwan_1_1mac__field_1ad391fa2f6ddc82ee0a19f302f48d475d">set_data</reimplements>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a753f86d5c5c1bbb90d325d48a2c1e5fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::mac_field_frame::get_padding</definition>
+        <argsstring>()</argsstring>
+        <name>get_padding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="52" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a2304c6665cbc2a9e48ca91040d17d326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::lpwan::mac_field_frame::get_is_valid</definition>
+        <argsstring>()</argsstring>
+        <name>get_is_valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="53" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1ae9c90f722793eed4e6ba07e407be8591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::lpwan::mac_field_frame::get_seq_nr</definition>
+        <argsstring>()</argsstring>
+        <name>get_seq_nr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="54" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1ab2f66fe7707840b2ae9ebd72ada9eb1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref></type>
+        <definition>address_info gr::lpwan::mac_field_frame::get_address_info</definition>
+        <argsstring>()</argsstring>
+        <name>get_address_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="55" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a3b7fdc0e3b1fd8c28d6938616ef3f652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref></type>
+        <definition>mac_field_frame_ctrl gr::lpwan::mac_field_frame::get_frame_ctrl</definition>
+        <argsstring>()</argsstring>
+        <name>get_frame_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="56" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a43ac4759626af158110751618ca36227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classgr_1_1lpwan_1_1mac__field__header__ie" kindref="compound">mac_field_header_ie</ref> * &gt;</type>
+        <definition>std::vector&lt;mac_field_header_ie*&gt; gr::lpwan::mac_field_frame::get_header_ies</definition>
+        <argsstring>()</argsstring>
+        <name>get_header_ies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="57" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a0e828712bc94567c776f5dc0c863078c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr::lpwan::mac_field_frame::get_payload</definition>
+        <argsstring>()</argsstring>
+        <name>get_payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="58" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a6480e4712d57430367a805a9c7711dbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_padding</definition>
+        <argsstring>(int p)</argsstring>
+        <name>set_padding</name>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="60" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1ae8a7160044a8ee12908aa99194c83913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_is_valid</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>set_is_valid</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="61" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a893506fc76399e9b9038aba8d7a639c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_seq_nr</definition>
+        <argsstring>(uint8_t sqn)</argsstring>
+        <name>set_seq_nr</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>sqn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="62" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1acd3f39424f0b9442f20f4bf1b9fc3bc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_address_info</definition>
+        <argsstring>(address_info &amp;ai)</argsstring>
+        <name>set_address_info</name>
+        <param>
+          <type><ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref> &amp;</type>
+          <declname>ai</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="63" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a306552f053f6170a608cec9fdb1a853d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_frame_ctrl</definition>
+        <argsstring>(mac_field_frame_ctrl &amp;fc)</argsstring>
+        <name>set_frame_ctrl</name>
+        <param>
+          <type><ref refid="classgr_1_1lpwan_1_1mac__field__frame__ctrl" kindref="compound">mac_field_frame_ctrl</ref> &amp;</type>
+          <declname>fc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="64" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a7f52d1e7a27069ed5085368b584ec72c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_header_ies</definition>
+        <argsstring>(std::vector&lt; mac_field_header_ie *&gt; &amp;ie)</argsstring>
+        <name>set_header_ies</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classgr_1_1lpwan_1_1mac__field__header__ie" kindref="compound">mac_field_header_ie</ref> *&gt; &amp;</type>
+          <declname>ie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="65" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a7c2935802221a65b01d22de9219a5f1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::set_payload</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;p)</argsstring>
+        <name>set_payload</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="66" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a4d57d9edcf4a68b47d6afa49f3dbdfae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::lpwan::mac_field_frame::add_header_ie</definition>
+        <argsstring>(mac_field_header_ie *ie)</argsstring>
+        <name>add_header_ie</name>
+        <param>
+          <type><ref refid="classgr_1_1lpwan_1_1mac__field__header__ie" kindref="compound">mac_field_header_ie</ref> *</type>
+          <declname>ie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a08e429b78799be4743a57df68ae22b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::mac_field_frame::mac_field_frame</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;v, int crclen)</argsstring>
+        <name>mac_field_frame</name>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crclen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a9642f4ef0cf8adb9dc22269f64e2f8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::mac_field_frame::mac_field_frame</definition>
+        <argsstring>(int crclen)</argsstring>
+        <name>mac_field_frame</name>
+        <param>
+          <type>int</type>
+          <declname>crclen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a4a3168d41b4f6201bf6b04cc05107e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::mac_field_frame::~mac_field_frame</definition>
+        <argsstring>()</argsstring>
+        <name>~mac_field_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="75" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a3fd0fa3c7244faeb411928bc2acd75c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gr::lpwan::mac_field_frame::src_pan_id_present</definition>
+        <argsstring>(int dest_addr_mode, int src_addr_mode, int pan_id_compr)</argsstring>
+        <name>src_pan_id_present</name>
+        <param>
+          <type>int</type>
+          <declname>dest_addr_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_addr_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pan_id_compr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__field__frame_1a46904fc0d3ec0789bf2d5ebac48e932f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gr::lpwan::mac_field_frame::dest_pan_id_present</definition>
+        <argsstring>(int dest_addr_mode, int src_addr_mode, int pan_id_compr)</argsstring>
+        <name>dest_pan_id_present</name>
+        <param>
+          <type>int</type>
+          <declname>dest_addr_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_addr_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pan_id_compr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>mac frame </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="255">
+        <label>gr::lpwan::mac_field</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field"/>
+      </node>
+      <node id="254">
+        <label>gr::lpwan::mac_field_frame</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frame"/>
+        <childnode refid="255" relation="protected-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="257">
+        <label>gr::lpwan::mac_field</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field"/>
+      </node>
+      <node id="256">
+        <label>gr::lpwan::mac_field_frame</label>
+        <link refid="classgr_1_1lpwan_1_1mac__field__frame"/>
+        <childnode refid="257" relation="protected-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" line="46" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h" bodystart="45" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a4d57d9edcf4a68b47d6afa49f3dbdfae" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>add_header_ie</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field_1ad934772b425f8ce338630868692ada00" prot="protected" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>append_data</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a59a1158a54789fec70e2fc338575e251" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_ai</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a2fa9c46c400a7dbde173711f030567a8" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_crc</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1ab4a8cd29e424ae4745eba54c4a967a2d" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_fr_ctrl</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a84d7c0e40328abf744c33f31af33b48d" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_h_ies</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a63519157d319f0dfa56194310d04e0ff" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_pad_to</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a6c6f9c4ac3010e5efc382ff4c246b308" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_payload</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a1b36a26297c26310f9a835949d5b06bf" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_seq_nr</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1ad303e23e062ef15952a4fe837952cf2b" prot="private" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>d_valid</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a46904fc0d3ec0789bf2d5ebac48e932f" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>dest_pan_id_present</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1ab2f66fe7707840b2ae9ebd72ada9eb1e" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_address_info</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a89710a262068ed6ace5092b64eed5358" prot="public" virt="virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_data</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a3b7fdc0e3b1fd8c28d6938616ef3f652" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_frame_ctrl</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a43ac4759626af158110751618ca36227" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_header_ies</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a2304c6665cbc2a9e48ca91040d17d326" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_is_valid</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a753f86d5c5c1bbb90d325d48a2c1e5fa" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_padding</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a0e828712bc94567c776f5dc0c863078c" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_payload</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1ae9c90f722793eed4e6ba07e407be8591" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>get_seq_nr</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a08e429b78799be4743a57df68ae22b14" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>mac_field_frame</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a9642f4ef0cf8adb9dc22269f64e2f8d8" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>mac_field_frame</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1acd3f39424f0b9442f20f4bf1b9fc3bc4" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_address_info</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a0825303a69a03819a333bc8212e333dc" prot="public" virt="virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_data</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a306552f053f6170a608cec9fdb1a853d" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_frame_ctrl</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a7f52d1e7a27069ed5085368b584ec72c" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_header_ies</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1ae8a7160044a8ee12908aa99194c83913" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_is_valid</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a6480e4712d57430367a805a9c7711dbe" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_padding</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a7c2935802221a65b01d22de9219a5f1f" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_payload</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a893506fc76399e9b9038aba8d7a639c6" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>set_seq_nr</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a3fd0fa3c7244faeb411928bc2acd75c6" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>src_pan_id_present</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__field__frame_1a4a3168d41b4f6201bf6b04cc05107e6c" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_field_frame</scope><name>~mac_field_frame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

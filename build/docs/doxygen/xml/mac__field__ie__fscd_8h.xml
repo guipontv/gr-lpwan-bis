@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mac__field__ie__fscd_8h" kind="file" language="C++">
+    <compoundname>mac_field_ie_fscd.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes refid="mac__field__header__ie_8h" local="yes">mac_field_header_ie.h</includes>
+    <includes refid="mac__field__frame_8h" local="yes">mac_field_frame.h</includes>
+    <includes refid="mac__format_8h" local="yes">mac_format.h</includes>
+    <includedby refid="mac__field__frame_8h" local="yes">mac_field_frame.h</includedby>
+    <incdepgraph>
+      <node id="427">
+        <label>mac_field_header_ie.h</label>
+        <link refid="mac__field__header__ie_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>string</label>
+      </node>
+      <node id="426">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="431">
+        <label>mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="426" relation="include">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="433">
+        <label>mac_crc.h</label>
+        <link refid="mac__crc_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>mac_format.h</label>
+        <link refid="mac__format_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="436">
+        <label>mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="435" relation="include">
+        </childnode>
+        <childnode refid="437" relation="include">
+        </childnode>
+      </node>
+      <node id="437">
+        <label>dsss_fragmentation_impl.h</label>
+        <link refid="dsss__fragmentation__impl_8h"/>
+      </node>
+      <node id="435">
+        <label>mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="436" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" prot="public">gr::lpwan::mac_field_ie_fscd</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a7d182f36d4d0006544068f9087042587" prot="public" static="no">
+        <name>FSCD_BITSTART_SEC_FRAG</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="33" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a8fa07a533e3b3ac173e853564ae90ca8" prot="public" static="no">
+        <name>FSCD_BITLEN_SEC_FRAG</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="34" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a625b285f1243dc0d015c46a729047c3b" prot="public" static="no">
+        <name>FSCD_BITSTART_TID</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="36" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a416ae1b488b52a1d0025399e0a9c0e86" prot="public" static="no">
+        <name>FSCD_BITLEN_TID</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="37" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1aeb9ec876f1add31aee8eadff4b077aca" prot="public" static="no">
+        <name>FSCD_BITSTART_FRAK_POLICY</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="39" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a8b77aefb49dbcfa1808de64a9924da56" prot="public" static="no">
+        <name>FSCD_BITLEN_FRAK_POLICY</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="40" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a60eba6eb3d078d2add189d18339e4419" prot="public" static="no">
+        <name>FSCD_BITSTART_FICS_LEN</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="42" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a6022f97c8abf28b0be6472cc509ac703" prot="public" static="no">
+        <name>FSCD_BITLEN_FICS_LEN</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="43" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1acd3dbe82af564b0831f9953f58f71bab" prot="public" static="no">
+        <name>FSCD_BITSTART_PSDU_SIZE</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="45" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1aecd770150d26557adb55d1d9ca47c524" prot="public" static="no">
+        <name>FSCD_BITLEN_PSDU_SIZE</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="46" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a7c0ef0a1cb1aadb309216cb20bd76885" prot="public" static="no">
+        <name>FSCD_BITSTART_SRC_PAN_PRES</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="48" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1ac1eacbf28765be5b9428b2bfe20172e6" prot="public" static="no">
+        <name>FSCD_BITLEN_SRC_PAN_PRES</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="49" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1ad4533f45595a92e21c6493fe6f8bc607" prot="public" static="no">
+        <name>FSCD_BITSTART_DEST_PAN_PRES</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="51" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a7c8efdefffee53db63a75fedd3292fc4" prot="public" static="no">
+        <name>FSCD_BITLEN_DEST_PAN_PRES</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="52" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a05937e60b11b550984fd81d4c9082061" prot="public" static="no">
+        <name>FSCD_BITSTART_SRC_ADDR_MODE</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="54" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a2332b3c7d34ca5f6a11d9dc0fe98026a" prot="public" static="no">
+        <name>FSCD_BITLEN_SRC_ADDR_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="55" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a1c0364ccf27af8c819b9437662583ebc" prot="public" static="no">
+        <name>FSCD_BITSTART_DEST_ADDR_MODE</name>
+        <initializer>30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="57" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1af8a3d62f9a3aef855b2cf77f8ae3d725" prot="public" static="no">
+        <name>FSCD_BITLEN_DEST_ADDR_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="58" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h"/>
+  </compounddef>
+</doxygen>

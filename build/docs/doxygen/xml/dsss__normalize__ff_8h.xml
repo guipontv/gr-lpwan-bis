@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dsss__normalize__ff_8h" kind="file" language="C++">
+    <compoundname>dsss_normalize_ff.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes local="no">gnuradio/tagged_stream_block.h</includes>
+    <includedby refid="dsss__normalize__ff__impl_8h" local="no">dsss_normalize_ff_impl.h</includedby>
+    <incdepgraph>
+      <node id="184">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="183">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>dsss_normalize_ff.h</label>
+        <link refid="dsss__normalize__ff_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="187">
+        <label>dsss_normalize_ff_impl.h</label>
+        <link refid="dsss__normalize__ff__impl_8h"/>
+      </node>
+      <node id="186">
+        <label>dsss_normalize_ff.h</label>
+        <link refid="dsss__normalize__ff_8h"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__normalize__ff" prot="public">gr::lpwan::dsss_normalize_ff</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_2331700adfc54e902a8abebcc580d03e" kind="dir">
+    <compoundname>lpwan</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="conj__multiply__delay__ccc_8h">conj_multiply_delay_ccc.h</innerfile>
+    <innerfile refid="dsss__codes_8h">dsss_codes.h</innerfile>
+    <innerfile refid="dsss__deinterleaver__ff_8h">dsss_deinterleaver_ff.h</innerfile>
+    <innerfile refid="dsss__despread__cc_8h">dsss_despread_cc.h</innerfile>
+    <innerfile refid="dsss__despread__simple__cc_8h">dsss_despread_simple_cc.h</innerfile>
+    <innerfile refid="dsss__diff__coding__bb_8h">dsss_diff_coding_bb.h</innerfile>
+    <innerfile refid="dsss__diff__decoding__ff_8h">dsss_diff_decoding_ff.h</innerfile>
+    <innerfile refid="dsss__filter__crc__packets_8h">dsss_filter_crc_packets.h</innerfile>
+    <innerfile refid="dsss__fragmentation_8h">dsss_fragmentation.h</innerfile>
+    <innerfile refid="dsss__interleaver__bb_8h">dsss_interleaver_bb.h</innerfile>
+    <innerfile refid="dsss__normalize__ff_8h">dsss_normalize_ff.h</innerfile>
+    <innerfile refid="dsss__preamble__demod__cc_8h">dsss_preamble_demod_cc.h</innerfile>
+    <innerfile refid="dsss__preamble__detector__cc_8h">dsss_preamble_detector_cc.h</innerfile>
+    <innerfile refid="dsss__snr__estimator_8h">dsss_snr_estimator.h</innerfile>
+    <innerfile refid="dsss__spreading__bb_8h">dsss_spreading_bb.h</innerfile>
+    <innerfile refid="fsk__lecim__corr__est__cc_8h">fsk_lecim_corr_est_cc.h</innerfile>
+    <innerfile refid="fsk__lecim__deinterleaver_8h">fsk_lecim_deinterleaver.h</innerfile>
+    <innerfile refid="fsk__lecim__interleaver_8h">fsk_lecim_interleaver.h</innerfile>
+    <innerfile refid="fsk__lecim__normalize__fcc_8h">fsk_lecim_normalize_fcc.h</innerfile>
+    <innerfile refid="fsk__lecim__phr__parser_8h">fsk_lecim_phr_parser.h</innerfile>
+    <innerfile refid="fsk__lecim__phr__pdu__demux_8h">fsk_lecim_phr_pdu_demux.h</innerfile>
+    <innerfile refid="fsk__lecim__time__synchronizer__cc_8h">fsk_lecim_time_synchronizer_cc.h</innerfile>
+    <innerfile refid="mac__crc_8h">mac_crc.h</innerfile>
+    <innerfile refid="mac__field_8h">mac_field.h</innerfile>
+    <innerfile refid="mac__field__frag__header_8h">mac_field_frag_header.h</innerfile>
+    <innerfile refid="mac__field__frag__status_8h">mac_field_frag_status.h</innerfile>
+    <innerfile refid="mac__field__fragment_8h">mac_field_fragment.h</innerfile>
+    <innerfile refid="mac__field__frak_8h">mac_field_frak.h</innerfile>
+    <innerfile refid="mac__field__frame_8h">mac_field_frame.h</innerfile>
+    <innerfile refid="mac__field__frame__ctrl_8h">mac_field_frame_ctrl.h</innerfile>
+    <innerfile refid="mac__field__header__ie_8h">mac_field_header_ie.h</innerfile>
+    <innerfile refid="mac__field__ie__fscd_8h">mac_field_ie_fscd.h</innerfile>
+    <innerfile refid="mac__format_8h">mac_format.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/"/>
+  </compounddef>
+</doxygen>

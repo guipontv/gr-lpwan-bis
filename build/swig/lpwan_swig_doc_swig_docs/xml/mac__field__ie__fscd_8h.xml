@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mac__field__ie__fscd_8h" kind="file" language="C++">
+    <compoundname>mac_field_ie_fscd.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes refid="mac__field__header__ie_8h" local="yes">mac_field_header_ie.h</includes>
+    <includes refid="mac__field__frame_8h" local="yes">mac_field_frame.h</includes>
+    <includes refid="mac__format_8h" local="yes">mac_format.h</includes>
+    <includedby refid="mac__field__frame_8h" local="yes">/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h</includedby>
+    <incdepgraph>
+      <node id="236">
+        <label>mac_field_header_ie.h</label>
+        <link refid="mac__field__header__ie_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>string</label>
+      </node>
+      <node id="235">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="240">
+        <label>mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="242">
+        <label>mac_crc.h</label>
+        <link refid="mac__crc_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>mac_format.h</label>
+        <link refid="mac__format_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="245">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="245" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" prot="public">gr::lpwan::mac_field_ie_fscd</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a7d182f36d4d0006544068f9087042587" prot="public" static="no">
+        <name>FSCD_BITSTART_SEC_FRAG</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="33" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a8fa07a533e3b3ac173e853564ae90ca8" prot="public" static="no">
+        <name>FSCD_BITLEN_SEC_FRAG</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="34" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a625b285f1243dc0d015c46a729047c3b" prot="public" static="no">
+        <name>FSCD_BITSTART_TID</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="36" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a416ae1b488b52a1d0025399e0a9c0e86" prot="public" static="no">
+        <name>FSCD_BITLEN_TID</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="37" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1aeb9ec876f1add31aee8eadff4b077aca" prot="public" static="no">
+        <name>FSCD_BITSTART_FRAK_POLICY</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="39" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a8b77aefb49dbcfa1808de64a9924da56" prot="public" static="no">
+        <name>FSCD_BITLEN_FRAK_POLICY</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="40" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a60eba6eb3d078d2add189d18339e4419" prot="public" static="no">
+        <name>FSCD_BITSTART_FICS_LEN</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="42" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a6022f97c8abf28b0be6472cc509ac703" prot="public" static="no">
+        <name>FSCD_BITLEN_FICS_LEN</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="43" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1acd3dbe82af564b0831f9953f58f71bab" prot="public" static="no">
+        <name>FSCD_BITSTART_PSDU_SIZE</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="45" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1aecd770150d26557adb55d1d9ca47c524" prot="public" static="no">
+        <name>FSCD_BITLEN_PSDU_SIZE</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="46" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a7c0ef0a1cb1aadb309216cb20bd76885" prot="public" static="no">
+        <name>FSCD_BITSTART_SRC_PAN_PRES</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="48" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1ac1eacbf28765be5b9428b2bfe20172e6" prot="public" static="no">
+        <name>FSCD_BITLEN_SRC_PAN_PRES</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="49" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1ad4533f45595a92e21c6493fe6f8bc607" prot="public" static="no">
+        <name>FSCD_BITSTART_DEST_PAN_PRES</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="51" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a7c8efdefffee53db63a75fedd3292fc4" prot="public" static="no">
+        <name>FSCD_BITLEN_DEST_PAN_PRES</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="52" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a05937e60b11b550984fd81d4c9082061" prot="public" static="no">
+        <name>FSCD_BITSTART_SRC_ADDR_MODE</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="54" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a2332b3c7d34ca5f6a11d9dc0fe98026a" prot="public" static="no">
+        <name>FSCD_BITLEN_SRC_ADDR_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="55" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1a1c0364ccf27af8c819b9437662583ebc" prot="public" static="no">
+        <name>FSCD_BITSTART_DEST_ADDR_MODE</name>
+        <initializer>30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="57" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mac__field__ie__fscd_8h_1af8a3d62f9a3aef855b2cf77f8ae3d725" prot="public" static="no">
+        <name>FSCD_BITLEN_DEST_ADDR_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" line="58" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2017<sp/>Kristian<sp/>Maier<sp/>&lt;kristian.maier@gmx.de&gt;.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>software;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_LPWAN_MAC_FIELD_IE_FSCD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_LPWAN_MAC_FIELD_IE_FSCD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="api_8h" kindref="compound">lpwan/api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mac__field__header__ie_8h" kindref="compound">mac_field_header_ie.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mac__field__frame_8h" kindref="compound">mac_field_frame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mac__format_8h" kindref="compound">mac_format.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegr" kindref="compound">gr</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">lpwan<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="mac__field__ie__fscd_8h_1a7d182f36d4d0006544068f9087042587" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_SEC_FRAG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="mac__field__ie__fscd_8h_1a8fa07a533e3b3ac173e853564ae90ca8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_SEC_FRAG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="mac__field__ie__fscd_8h_1a625b285f1243dc0d015c46a729047c3b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_TID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="mac__field__ie__fscd_8h_1a416ae1b488b52a1d0025399e0a9c0e86" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_TID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="mac__field__ie__fscd_8h_1aeb9ec876f1add31aee8eadff4b077aca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_FRAK_POLICY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="mac__field__ie__fscd_8h_1a8b77aefb49dbcfa1808de64a9924da56" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_FRAK_POLICY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="mac__field__ie__fscd_8h_1a60eba6eb3d078d2add189d18339e4419" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_FICS_LEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="mac__field__ie__fscd_8h_1a6022f97c8abf28b0be6472cc509ac703" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_FICS_LEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="mac__field__ie__fscd_8h_1acd3dbe82af564b0831f9953f58f71bab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_PSDU_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="mac__field__ie__fscd_8h_1aecd770150d26557adb55d1d9ca47c524" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_PSDU_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="mac__field__ie__fscd_8h_1a7c0ef0a1cb1aadb309216cb20bd76885" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_SRC_PAN_PRES<sp/><sp/><sp/><sp/><sp/><sp/>26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="mac__field__ie__fscd_8h_1ac1eacbf28765be5b9428b2bfe20172e6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_SRC_PAN_PRES<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="mac__field__ie__fscd_8h_1ad4533f45595a92e21c6493fe6f8bc607" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_DEST_PAN_PRES<sp/><sp/><sp/><sp/><sp/>27</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="mac__field__ie__fscd_8h_1a7c8efdefffee53db63a75fedd3292fc4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_DEST_PAN_PRES<sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="mac__field__ie__fscd_8h_1a05937e60b11b550984fd81d4c9082061" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_SRC_ADDR_MODE<sp/><sp/><sp/><sp/><sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="mac__field__ie__fscd_8h_1a2332b3c7d34ca5f6a11d9dc0fe98026a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_SRC_ADDR_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="mac__field__ie__fscd_8h_1a1c0364ccf27af8c819b9437662583ebc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITSTART_DEST_ADDR_MODE<sp/><sp/><sp/><sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="mac__field__ie__fscd_8h_1af8a3d62f9a3aef855b2cf77f8ae3d725" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FSCD_BITLEN_DEST_ADDR_MODE<sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1a810069f2fba897404742c83af3e80baf" kindref="member">lpwan_API</ref><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" kindref="compound">mac_field_ie_fscd</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__header__ie" kindref="compound">mac_field_header_ie</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>get_data();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_data(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;v);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a7e1fa9dd527f5a505d2dbdefaf6b33f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a7e1fa9dd527f5a505d2dbdefaf6b33f3" kindref="member">get_sec_frag</ref>()<sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_sec_frag;}</highlight></codeline>
+<codeline lineno="73" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a2ea514c1a1fdb58648195a912fdaa292" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a2ea514c1a1fdb58648195a912fdaa292" kindref="member">get_tid</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_tid;}</highlight></codeline>
+<codeline lineno="74" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a5843883997f6d18e82dc086eef6e4232" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a5843883997f6d18e82dc086eef6e4232" kindref="member">get_frak_policy</ref>()<sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_frak_policy;}</highlight></codeline>
+<codeline lineno="75" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aea1cd7f6b5c6b5e08c5c6fa410c47558" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aea1cd7f6b5c6b5e08c5c6fa410c47558" kindref="member">get_fics_len</ref>()<sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_fics_len;}</highlight></codeline>
+<codeline lineno="76" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aaea3968c106ab4677b2219a52811c312" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aaea3968c106ab4677b2219a52811c312" kindref="member">get_psdu_size</ref>()<sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_psdu_size;}</highlight></codeline>
+<codeline lineno="77" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a3fd6d8294269da9f791689593cc6874d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a3fd6d8294269da9f791689593cc6874d" kindref="member">get_address_info</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_ai;}</highlight></codeline>
+<codeline lineno="78" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1ad9f26f45d347ad872c76ee4b19f2c393" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1ad9f26f45d347ad872c76ee4b19f2c393" kindref="member">get_psdu_ctr</ref>()<sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_psdu_ctr;}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a09a08640cc12498e80ba6dc2ad3d7f7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a09a08640cc12498e80ba6dc2ad3d7f7f" kindref="member">set_sec_frag</ref>(uint8_t<sp/>sf)<sp/><sp/><sp/><sp/><sp/><sp/>{d_sec_frag<sp/>=<sp/>sf;}</highlight></codeline>
+<codeline lineno="81" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1ab3f8d4f2a1c48c65effe478d995cb462" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1ab3f8d4f2a1c48c65effe478d995cb462" kindref="member">set_tid</ref>(uint8_t<sp/>tid)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{d_tid<sp/>=<sp/>tid;}</highlight></codeline>
+<codeline lineno="82" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a24112543050e15fd7e47db4b8d52bdab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a24112543050e15fd7e47db4b8d52bdab" kindref="member">set_frak_policy</ref>(uint8_t<sp/>fp)<sp/><sp/><sp/>{d_frak_policy<sp/>=<sp/>fp;}</highlight></codeline>
+<codeline lineno="83" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aec232fa41c0fbdfb2379d8b3bff65aa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1aec232fa41c0fbdfb2379d8b3bff65aa0" kindref="member">set_fics_len</ref>(uint8_t<sp/>fl)<sp/><sp/><sp/><sp/><sp/><sp/>{d_fics_len<sp/>=<sp/>fl;}</highlight></codeline>
+<codeline lineno="84" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a6e61903d895686f05a01af07bee91593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a6e61903d895686f05a01af07bee91593" kindref="member">set_psdu_size</ref>(uint16_t<sp/>ps)<sp/><sp/><sp/><sp/><sp/>{d_psdu_size<sp/>=<sp/>ps;}</highlight></codeline>
+<codeline lineno="85" refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a4ce5f9fc8af0804d4d2ea0e64f6d7446" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd_1a4ce5f9fc8af0804d4d2ea0e64f6d7446" kindref="member">set_address_info</ref>(<ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref><sp/>&amp;a)<sp/><sp/>{d_ai<sp/>=<sp/>a;}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" kindref="compound">mac_field_ie_fscd</ref>(std::vector&lt;uint8_t&gt;<sp/>v);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" kindref="compound">mac_field_ie_fscd</ref>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1lpwan_1_1mac__field__ie__fscd" kindref="compound">mac_field_ie_fscd</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_sec_frag;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_tid;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_frak_policy;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>d_fics_len;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>d_psdu_size;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structgr_1_1lpwan_1_1address__info" kindref="compound">address_info</ref><sp/>d_ai;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>d_psdu_ctr;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>lpwan</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LPWAN_MAC_FIELD_IE_FSCD_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_ie_fscd.h"/>
+  </compounddef>
+</doxygen>

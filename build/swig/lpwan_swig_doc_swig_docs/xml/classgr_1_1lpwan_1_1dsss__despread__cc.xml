@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__despread__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_despread_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="dsss__despread__cc_8h" local="no">dsss_despread_cc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1dsss__despread__cc_1a86d72547a07b5ee9c14027b0bb3b93f9" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1dsss__despread__cc" kindref="compound">dsss_despread_cc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;dsss_despread_cc&gt; gr::lpwan::dsss_despread_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h" line="45" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__despread__cc_1aca40dbf6e1a94f8688dd799b5eb58adc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1dsss__despread__cc_1a86d72547a07b5ee9c14027b0bb3b93f9" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::dsss_despread_cc::make</definition>
+        <argsstring>(int sf, int seed, int preamble_seed, int ovsf_code_index, int ovsf_log_sf, int sps, int psdu_len, int modulation, int chiprate, bool reset_per_symbol, bool dll_active, int dll_delta, float dll_gain, float dll_error_reset, float dll_cmp)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>sf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>preamble_seed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ovsf_code_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ovsf_log_sf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>psdu_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>modulation</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chiprate</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reset_per_symbol</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dll_active</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dll_delta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dll_gain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dll_error_reset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dll_cmp</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1dsss__despread__cc" kindref="compound">lpwan::dsss_despread_cc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gold code spreading factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>seed of the cold gode generator for the data payload </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preamble_seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>seed of the cold gode generator for the preamble, assumed reset_per_symbol = true </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ovsf_code_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ovsf code index [0, 2^ovsf_log_sf-1] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ovsf_log_sf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ovsf spreading factor [0, 8] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>samples per symbol, interpolation factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>psdu_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the psdu payload (16, 24, 32) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>modulation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>OQPSK or BPSK </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chiprate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>absolute chiprate, for frequency synchronisation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reset_per_symbol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reset gold code after each symbol / after sf chips </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dll_active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the dll should be used </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dll_delta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sample delay of early late to prompt </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dll_gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>loop gain of dll </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dll_error_reset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>single gain multiplier after sample error detection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dll_cmp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cmp value for dll </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Despreading of already timesynced LECIM DSSS packets. </para>    </briefdescription>
+    <detaileddescription>
+<para>This block despreads packets marked with a stream tag in the input stream. The tag has to be on the first chip of the payload, with the tag key &quot;sop&quot; and an estimation of the frequency offset as float value. It is possible to despread overlapping packets.</para><para>The output is a tagged stream with one despreaded payload packet per tagged block. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>block</label>
+      </node>
+      <node id="14">
+        <label>gr::lpwan::dsss_despread_cc</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__despread__cc"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>block</label>
+      </node>
+      <node id="16">
+        <label>gr::lpwan::dsss_despread_cc</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__despread__cc"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h" line="43" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_despread_cc.h" bodystart="43" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__despread__cc_1aca40dbf6e1a94f8688dd799b5eb58adc" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__despread__cc_1a86d72547a07b5ee9c14027b0bb3b93f9" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_despread_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

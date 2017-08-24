@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__normalize__ff" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_normalize_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <includes refid="dsss__normalize__ff_8h" local="no">dsss_normalize_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1dsss__normalize__ff_1aa539f82cac288a19f2376bdb4209c801" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1dsss__normalize__ff" kindref="compound">dsss_normalize_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;dsss_normalize_ff&gt; gr::lpwan::dsss_normalize_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h" line="42" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__normalize__ff_1aab8f452ecc54233bf14890009a465911" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1dsss__normalize__ff_1aa539f82cac288a19f2376bdb4209c801" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::dsss_normalize_ff::make</definition>
+        <argsstring>(std::string len_tag)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1dsss__normalize__ff" kindref="compound">lpwan::dsss_normalize_ff</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>len_tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length tag key </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Normalizes one tagged stream block with length N. </para>    </briefdescription>
+    <detaileddescription>
+<para>out = in / (Sum_N_x(abs(in[x])) / N) </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="42">
+        <label>gr::lpwan::dsss_normalize_ff</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__normalize__ff"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="44">
+        <label>gr::lpwan::dsss_normalize_ff</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__normalize__ff"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h" line="40" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_normalize_ff.h" bodystart="39" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff_1aab8f452ecc54233bf14890009a465911" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff_1aa539f82cac288a19f2376bdb4209c801" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

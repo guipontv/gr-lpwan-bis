@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_diff_decoding_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff" prot="public" virt="non-virtual">gr::lpwan::dsss_diff_decoding_ff</basecompoundref>
+    <includes refid="dsss__diff__decoding__ff__impl_8h" local="no">dsss_diff_decoding_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a9fb4fe923d8289013f352ba40b1f24e8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::dsss_diff_decoding_ff_impl::d_phase_ref</definition>
+        <argsstring></argsstring>
+        <name>d_phase_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="32" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a222e23aa986adffba3b4c5de3486a7ab" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_diff_decoding_ff_impl::d_shr_len</definition>
+        <argsstring></argsstring>
+        <name>d_shr_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="33" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a1378bbe97aab954c6ec60f08216ac079" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_diff_decoding_ff_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="36" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a9a844838fba02d0975cab7ddb89ba5e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_diff_decoding_ff_impl::dsss_diff_decoding_ff_impl</definition>
+        <argsstring>(std::string len_tag, bool phase_ref, int shr_len)</argsstring>
+        <name>dsss_diff_decoding_ff_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>phase_ref</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shr_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a171d9ed0c2d81e9d8941e74fb3c16c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_diff_decoding_ff_impl::~dsss_diff_decoding_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dsss_diff_decoding_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1ab550c01726b2ef9907bd37c19d35fd6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_diff_decoding_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="67">
+        <label>gr::lpwan::dsss_diff_decoding_ff</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>gr::lpwan::dsss_diff_decoding_ff_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="71">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="70">
+        <label>gr::lpwan::dsss_diff_decoding_ff</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>gr::lpwan::dsss_diff_decoding_ff_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" line="30" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_diff_decoding_ff_impl.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a1378bbe97aab954c6ec60f08216ac079" prot="protected" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a9fb4fe923d8289013f352ba40b1f24e8" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>d_phase_ref</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a222e23aa986adffba3b4c5de3486a7ab" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>d_shr_len</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a9a844838fba02d0975cab7ddb89ba5e3" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>dsss_diff_decoding_ff_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff_1a4aed811d7673f243a4da74176ef8e2de" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff_1afb1759dcef3182ca5dc18f8e0eeaa6aa" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1ab550c01726b2ef9907bd37c19d35fd6a" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__diff__decoding__ff__impl_1a171d9ed0c2d81e9d8941e74fb3c16c7c" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_diff_decoding_ff_impl</scope><name>~dsss_diff_decoding_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

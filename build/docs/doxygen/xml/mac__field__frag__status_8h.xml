@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mac__field__frag__status_8h" kind="file" language="C++">
+    <compoundname>mac_field_frag_status.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes refid="mac__field_8h" local="yes">mac_field.h</includes>
+    <incdepgraph>
+      <node id="363">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="364">
+        <label>mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="362" relation="include">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="363" relation="include">
+        </childnode>
+      </node>
+      <node id="361">
+        <label>mac_field_frag_status.h</label>
+        <link refid="mac__field__frag__status_8h"/>
+        <childnode refid="362" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1mac__field__frag__status" prot="public">gr::lpwan::mac_field_frag_status</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_field_frag_status.h"/>
+  </compounddef>
+</doxygen>

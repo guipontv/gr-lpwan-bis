@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structgr_1_1lpwan_1_1address__info" kind="struct" language="C++" prot="public">
+    <compoundname>gr::lpwan::address_info</compoundname>
+    <includes refid="mac__format_8h" local="no">mac_format.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1abc6105553c4aad98216834aabbca9062" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::address_info::dest_pan_id_pres</definition>
+        <argsstring></argsstring>
+        <name>dest_pan_id_pres</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="33" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1a1cf9685d8d14515c710c2cd1fd7bfbf0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::address_info::src_pan_id_pres</definition>
+        <argsstring></argsstring>
+        <name>src_pan_id_pres</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="34" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1ad71ec82e6e9dcf64080dd8c96d0be51b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::lpwan::address_info::dest_pan_id</definition>
+        <argsstring></argsstring>
+        <name>dest_pan_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="36" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1a5101eb422c0998d51462f47ef0f1d942" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::lpwan::address_info::src_pan_id</definition>
+        <argsstring></argsstring>
+        <name>src_pan_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="37" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1ab9b7e84534e5805fa42877329169439c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::lpwan::address_info::dest_addr_mode</definition>
+        <argsstring></argsstring>
+        <name>dest_addr_mode</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="39" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1a21db795d4f4d61e7d8529d3794da747c" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::lpwan::address_info::dest_addr</definition>
+        <argsstring></argsstring>
+        <name>dest_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="40" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1a9bf0b22febda2011005f873005ceb441" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::lpwan::address_info::src_addr_mode</definition>
+        <argsstring></argsstring>
+        <name>src_addr_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="42" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1lpwan_1_1address__info_1a4af85a5a4a0dd624263eabbae7c63588" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::lpwan::address_info::src_addr</definition>
+        <argsstring></argsstring>
+        <name>src_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="43" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="32" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="32" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structgr_1_1lpwan_1_1address__info_1a21db795d4f4d61e7d8529d3794da747c" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>dest_addr</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1ab9b7e84534e5805fa42877329169439c" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>dest_addr_mode</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1ad71ec82e6e9dcf64080dd8c96d0be51b" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>dest_pan_id</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1abc6105553c4aad98216834aabbca9062" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>dest_pan_id_pres</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1a4af85a5a4a0dd624263eabbae7c63588" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>src_addr</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1a9bf0b22febda2011005f873005ceb441" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>src_addr_mode</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1a5101eb422c0998d51462f47ef0f1d942" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>src_pan_id</name></member>
+      <member refid="structgr_1_1lpwan_1_1address__info_1a1cf9685d8d14515c710c2cd1fd7bfbf0" prot="public" virt="non-virtual"><scope>gr::lpwan::address_info</scope><name>src_pan_id_pres</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

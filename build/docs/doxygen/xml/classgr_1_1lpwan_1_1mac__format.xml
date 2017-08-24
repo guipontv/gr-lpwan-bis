@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1mac__format" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::mac_format</compoundname>
+    <includes refid="mac__format_8h" local="no">mac_format.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__format_1a21aa50548ae175e4f634816914a78a2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>static uint32_t gr::lpwan::mac_format::extract_bits</definition>
+        <argsstring>(const uint8_t *vec, int bitstart, int bitlen)</argsstring>
+        <name>extract_bits</name>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bitstart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bitlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__format_1a0f87a60c9747bba60446dfae93e0384c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::lpwan::mac_format::insert_bits</definition>
+        <argsstring>(uint8_t *vec, uint32_t bits, int bitstart, int bitlen)</argsstring>
+        <name>insert_bits</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bitstart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bitlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__format_1a1920fc56550a98cb03c21374f5bbbf97" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>static uint16_t gr::lpwan::mac_format::bytes2word</definition>
+        <argsstring>(uint8_t msb, uint8_t lsb)</argsstring>
+        <name>bytes2word</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>msb</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>lsb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__format_1a1e24f6d658a0773dc670edd51d872f34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::lpwan::mac_format::append_word</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;v, uint16_t word)</argsstring>
+        <name>append_word</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1mac__format_1a9d9deb890e552fc5dc70eaaeaacbdebd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void gr::lpwan::mac_format::append_bytes</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; &amp;v, int num_bytes, uint64_t bytes)</argsstring>
+        <name>append_bytes</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_bytes</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" line="47" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/mac_format.h" bodystart="47" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1mac__format_1a9d9deb890e552fc5dc70eaaeaacbdebd" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_format</scope><name>append_bytes</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__format_1a1e24f6d658a0773dc670edd51d872f34" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_format</scope><name>append_word</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__format_1a1920fc56550a98cb03c21374f5bbbf97" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_format</scope><name>bytes2word</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__format_1a21aa50548ae175e4f634816914a78a2b" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_format</scope><name>extract_bits</name></member>
+      <member refid="classgr_1_1lpwan_1_1mac__format_1a0f87a60c9747bba60446dfae93e0384c" prot="public" virt="non-virtual"><scope>gr::lpwan::mac_format</scope><name>insert_bits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

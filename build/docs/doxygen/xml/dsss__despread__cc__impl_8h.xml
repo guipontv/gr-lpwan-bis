@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dsss__despread__cc__impl_8h" kind="file" language="C++">
+    <compoundname>dsss_despread_cc_impl.h</compoundname>
+    <includes refid="dsss__despread__cc_8h" local="no">lpwan/dsss_despread_cc.h</includes>
+    <incdepgraph>
+      <node id="94">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="93">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="92">
+        <label>lpwan/dsss_despread_cc.h</label>
+        <link refid="dsss__despread__cc_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>dsss_despread_cc_impl.h</label>
+        <link refid="dsss__despread__cc__impl_8h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__despread__cc__impl" prot="public">gr::lpwan::dsss_despread_cc_impl</innerclass>
+    <innerclass refid="structgr_1_1lpwan_1_1dsss__despread__cc__impl_1_1s__packet__despread" prot="private">gr::lpwan::dsss_despread_cc_impl::s_packet_despread</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dsss__despread__cc__impl_8h_1abbadd6c31cc0ca672f188c1c8529aa12" prot="public" static="no">
+        <name>DSSS_MODULATION_BPSK</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="26" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dsss__despread__cc__impl_8h_1a0e1beee62bd55c2da5a8c96fc6b73a5c" prot="public" static="no">
+        <name>DSSS_MODULATION_OQPSK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" line="27" column="9" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_despread_cc_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__fragmentation" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_fragmentation</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="dsss__fragmentation_8h" local="no">dsss_fragmentation.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lpwan_1_1dsss__fragmentation_1a889e0c3a0d9f084760ad8ac9ea162d51" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lpwan_1_1dsss__fragmentation" kindref="compound">dsss_fragmentation</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;dsss_fragmentation&gt; gr::lpwan::dsss_fragmentation::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h" line="48" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__fragmentation_1aa9ca5035a27315e383d45bb6a635e744" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lpwan_1_1dsss__fragmentation_1a889e0c3a0d9f084760ad8ac9ea162d51" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lpwan::dsss_fragmentation::make</definition>
+        <argsstring>(int psdu_size, int frak_policy_tx, int frak_tx_timeout_ms, int frak_rx_timeout_ms, int frame_max_retry, int fics_size_tx, int device_addr_short, bool is_coordinator, int psdu_tx_dur, int dest_addr_short, bool verbose)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>psdu_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frak_policy_tx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frak_tx_timeout_ms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frak_rx_timeout_ms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_max_retry</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fics_size_tx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>device_addr_short</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_coordinator</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>psdu_tx_dur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dest_addr_short</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lpwan_1_1dsss__fragmentation" kindref="compound">lpwan::dsss_fragmentation</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>psdu_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>in bytes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frak_policy_tx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>only policy 1 supported so far </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frak_tx_timeout_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(frak policy 1) timeout for sending a frak and retransmission of fscd packet and fscd-ack </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frak_rx_timeout_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for receiving a frak, tx-abortion after timeout </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_max_retry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the maximum number of retries of the same fragment/fraks until abortion </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fics_size_tx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fics = crc length, 2 or 4 bytes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device_addr_short</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address of this device, only short address (16bit) supported </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>is_coordinator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if pan coordinator, (FOR NOW NO EFFEKT ) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>psdu_tx_dur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>duration of one psdu on air, so fragments don&apos;t flood phy queue </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dest_addr_short</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address of the destination (coordinator) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verbose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>print some (debug) info </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h" line="66" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fragmentation Layer Std. 23.3. </para>    </briefdescription>
+    <detaileddescription>
+<para>Takes a MAC frame and divides them into smaller fragments, which are tranmitted and acked as a seperate unit.</para><para>For now the destination address is fixed and not extracted from the MAC packet. This could be relevant in a testbed with more than two participants, where the coordinator wants to send to different transceivers. As a workaround it should be possible to use multiple fragmentation blocks. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>block</label>
+      </node>
+      <node id="34">
+        <label>gr::lpwan::dsss_fragmentation</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__fragmentation"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>block</label>
+      </node>
+      <node id="36">
+        <label>gr::lpwan::dsss_fragmentation</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__fragmentation"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h" line="46" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_fragmentation.h" bodystart="46" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation_1aa9ca5035a27315e383d45bb6a635e744" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__fragmentation_1a889e0c3a0d9f084760ad8ac9ea162d51" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_fragmentation</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::fsk_lecim_deinterleaver_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver" prot="public" virt="non-virtual">gr::lpwan::fsk_lecim_deinterleaver</basecompoundref>
+    <includes refid="fsk__lecim__deinterleaver__impl_8h" local="no">fsk_lecim_deinterleaver_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1a859fcbbf9c7b0f58e56e04d78c8aca15" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::lpwan::fsk_lecim_deinterleaver_impl::d_phr</definition>
+        <argsstring></argsstring>
+        <name>d_phr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="32" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1afe40fc6697771b8d300d702fb6c1e6e4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_deinterleaver_impl::d_nBlock</definition>
+        <argsstring></argsstring>
+        <name>d_nBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="33" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1aaa57bdc3d839f9aeef8023dcc4da92fb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_deinterleaver_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="37" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1ac9ea80b3c379d48fc921239de58987df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::fsk_lecim_deinterleaver_impl::fsk_lecim_deinterleaver_impl</definition>
+        <argsstring>(bool phr, int nBlock, std::string len_tag)</argsstring>
+        <name>fsk_lecim_deinterleaver_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>phr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBlock</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1a50bcc0fcc6ecfb4eab81174a22b69592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::fsk_lecim_deinterleaver_impl::~fsk_lecim_deinterleaver_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~fsk_lecim_deinterleaver_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1a22d074fc14c6fb3aca56ad79ef2837c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_deinterleaver_impl::deinterleave</definition>
+        <argsstring>(int k, int nDepth, int lambda)</argsstring>
+        <name>deinterleave</name>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDepth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lambda</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1ab76d8a1ccc04cde287f835e03ac036b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::fsk_lecim_deinterleaver_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>gr::lpwan::fsk_lecim_deinterleaver_impl</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>gr::lpwan::fsk_lecim_deinterleaver</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="179">
+        <label>gr::lpwan::fsk_lecim_deinterleaver_impl</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>gr::lpwan::fsk_lecim_deinterleaver</label>
+        <link refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" line="30" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/fsk_lecim_deinterleaver_impl.h" bodystart="29" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1aaa57bdc3d839f9aeef8023dcc4da92fb" prot="protected" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1afe40fc6697771b8d300d702fb6c1e6e4" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>d_nBlock</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1a859fcbbf9c7b0f58e56e04d78c8aca15" prot="private" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>d_phr</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1a22d074fc14c6fb3aca56ad79ef2837c6" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>deinterleave</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1ac9ea80b3c379d48fc921239de58987df" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>fsk_lecim_deinterleaver_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver_1a77f7a994273a7b48c5a49a18501ccc19" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver_1a9e19f48acb5da1231db82e7d6acbe32e" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1ab76d8a1ccc04cde287f835e03ac036b4" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lpwan_1_1fsk__lecim__deinterleaver__impl_1a50bcc0fcc6ecfb4eab81174a22b69592" prot="public" virt="non-virtual"><scope>gr::lpwan::fsk_lecim_deinterleaver_impl</scope><name>~fsk_lecim_deinterleaver_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

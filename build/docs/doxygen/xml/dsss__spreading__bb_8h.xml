@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dsss__spreading__bb_8h" kind="file" language="C++">
+    <compoundname>dsss_spreading_bb.h</compoundname>
+    <includes refid="api_8h" local="no">lpwan/api.h</includes>
+    <includes local="no">gnuradio/sync_interpolator.h</includes>
+    <includedby refid="dsss__spreading__bb__impl_8h" local="no">dsss_spreading_bb_impl.h</includedby>
+    <incdepgraph>
+      <node id="232">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="231">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>dsss_spreading_bb.h</label>
+        <link refid="dsss__spreading__bb_8h"/>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>gnuradio/sync_interpolator.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="235">
+        <label>dsss_spreading_bb_impl.h</label>
+        <link refid="dsss__spreading__bb__impl_8h"/>
+      </node>
+      <node id="234">
+        <label>dsss_spreading_bb.h</label>
+        <link refid="dsss__spreading__bb_8h"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__spreading__bb" prot="public">gr::lpwan::dsss_spreading_bb</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/include/lpwan/dsss_spreading_bb.h"/>
+  </compounddef>
+</doxygen>

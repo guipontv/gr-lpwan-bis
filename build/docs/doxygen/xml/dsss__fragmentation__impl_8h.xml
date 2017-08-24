@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dsss__fragmentation__impl_8h" kind="file" language="C++">
+    <compoundname>dsss_fragmentation_impl.h</compoundname>
+    <includes local="no">chrono</includes>
+    <includes refid="dsss__fragmentation_8h" local="no">lpwan/dsss_fragmentation.h</includes>
+    <includes refid="mac__field_8h" local="yes">lpwan/mac_field.h</includes>
+    <includes refid="mac__field__fragment_8h" local="yes">lpwan/mac_field_fragment.h</includes>
+    <includes refid="mac__field__frame__ctrl_8h" local="yes">lpwan/mac_field_frame_ctrl.h</includes>
+    <includes refid="mac__field__frame_8h" local="yes">lpwan/mac_field_frame.h</includes>
+    <includes refid="mac__field__frak_8h" local="yes">lpwan/mac_field_frak.h</includes>
+    <incdepgraph>
+      <node id="166">
+        <label>mac_field_header_ie.h</label>
+        <link refid="mac__field__header__ie_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="164">
+        <label>string</label>
+      </node>
+      <node id="155">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="163">
+        <label>lpwan/mac_field_frame.h</label>
+        <link refid="mac__field__frame_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>mac_field_frame_ctrl.h</label>
+        <link refid="mac__field__frame__ctrl_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>lpwan/mac_field.h</label>
+        <link refid="mac__field_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>lpwan/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>mac_field_frag_header.h</label>
+        <link refid="mac__field__frag__header_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="168">
+        <label>lpwan/mac_field_frak.h</label>
+        <link refid="mac__field__frak_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>lpwan/dsss_fragmentation.h</label>
+        <link refid="dsss__fragmentation_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>dsss_fragmentation_impl.h</label>
+        <link refid="dsss__fragmentation__impl_8h"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>lpwan/mac_field_fragment.h</label>
+        <link refid="mac__field__fragment_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>mac_crc.h</label>
+        <link refid="mac__crc_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>mac_format.h</label>
+        <link refid="mac__format_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>chrono</label>
+      </node>
+      <node id="167">
+        <label>mac_field_ie_fscd.h</label>
+        <link refid="mac__field__ie__fscd_8h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgr_1_1lpwan_1_1s__mpdu__frag__packet" prot="public">gr::lpwan::s_mpdu_frag_packet</innerclass>
+    <innerclass refid="classgr_1_1lpwan_1_1dsss__fragmentation__impl" prot="public">gr::lpwan::dsss_fragmentation_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lpwan">gr::lpwan</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_fragmentation_impl.h"/>
+  </compounddef>
+</doxygen>

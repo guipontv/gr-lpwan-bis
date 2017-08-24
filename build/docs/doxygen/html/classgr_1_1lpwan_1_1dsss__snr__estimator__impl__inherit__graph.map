@@ -1,0 +1,3 @@
+<map id="gr::lpwan::dsss_snr_estimator_impl" name="gr::lpwan::dsss_snr_estimator_impl">
+<area shape="rect" id="node2" href="$classgr_1_1lpwan_1_1dsss__snr__estimator.html" title="Estimates the SNR of received packets. It discards CRC&#45;failed packets and operates only on packets wi..." alt="" coords="5,80,143,121"/>
+</map>

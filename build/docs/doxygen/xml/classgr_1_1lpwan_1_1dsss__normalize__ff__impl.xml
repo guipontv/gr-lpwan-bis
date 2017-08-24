@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1lpwan_1_1dsss__normalize__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::lpwan::dsss_normalize_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lpwan_1_1dsss__normalize__ff" prot="public" virt="non-virtual">gr::lpwan::dsss_normalize_ff</basecompoundref>
+    <includes refid="dsss__normalize__ff__impl_8h" local="no">dsss_normalize_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a48f3eb765967d117f8f7eef557c51c22" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* gr::lpwan::dsss_normalize_ff_impl::d_vtmp</definition>
+        <argsstring></argsstring>
+        <name>d_vtmp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" line="32" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a2c1b0e4dc67a8b77a9e327a18d49b456" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_normalize_ff_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a2c1897e15d3e9cd853140b1e89217eb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_normalize_ff_impl::dsss_normalize_ff_impl</definition>
+        <argsstring>(std::string len_tag)</argsstring>
+        <name>dsss_normalize_ff_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a273556237ea16989be151c31532d8e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lpwan::dsss_normalize_ff_impl::~dsss_normalize_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dsss_normalize_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a87228752f59cfe726cdce63338867f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lpwan::dsss_normalize_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="112">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="111">
+        <label>gr::lpwan::dsss_normalize_ff</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__normalize__ff"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>gr::lpwan::dsss_normalize_ff_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="115">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="114">
+        <label>gr::lpwan::dsss_normalize_ff</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__normalize__ff"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>gr::lpwan::dsss_normalize_ff_impl</label>
+        <link refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" line="30" column="1" bodyfile="/Users/victorguipont/Developpement-informatique/GNU-radio/gr-lpwan/lib/dsss_normalize_ff_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a2c1b0e4dc67a8b77a9e327a18d49b456" prot="protected" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a48f3eb765967d117f8f7eef557c51c22" prot="private" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>d_vtmp</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a2c1897e15d3e9cd853140b1e89217eb1" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>dsss_normalize_ff_impl</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff_1aab8f452ecc54233bf14890009a465911" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff_1aa539f82cac288a19f2376bdb4209c801" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a87228752f59cfe726cdce63338867f7f" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lpwan_1_1dsss__normalize__ff__impl_1a273556237ea16989be151c31532d8e7c" prot="public" virt="non-virtual"><scope>gr::lpwan::dsss_normalize_ff_impl</scope><name>~dsss_normalize_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
